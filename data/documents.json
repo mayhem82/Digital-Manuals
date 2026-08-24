@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "note": "Document registry for the supplied 2010-2011 Can-Am Spyder RT/RT-S source compilation (1,603 compilation pages). Populated by scripts/ingest once the source PDF is supplied locally; no source has been ingested yet, so page counts and status below reflect that.",
+  "documents": [
+    {
+      "id": "DOC-SPYDER-SHOP",
+      "title": "2010-2011 Can-Am Spyder RT / RT-S Shop Manual",
+      "group": "shop-manual",
+      "applicability": ["2010", "2011", "RT", "RT-S"],
+      "compilation_page_range": null,
+      "pages_total_expected": null,
+      "pages_ingested": 0,
+      "status": "SOURCE_NOT_YET_INGESTED",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "DOC-RT622-SHOP",
+      "title": "RT-622 Trailer Shop Manual",
+      "group": "shop-manual",
+      "applicability": ["RT-622"],
+      "compilation_page_range": null,
+      "pages_total_expected": null,
+      "pages_ingested": 0,
+      "status": "SOURCE_NOT_YET_INGESTED",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "DOC-FLAT-RATE",
+      "title": "Flat-Rate Manuals",
+      "group": "flat-rate",
+      "applicability": ["2010", "2011", "RT", "RT-S"],
+      "compilation_page_range": null,
+      "pages_total_expected": null,
+      "pages_ingested": 0,
+      "status": "SOURCE_NOT_YET_INGESTED",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "DOC-SM5-PARTS",
+      "title": "SM5 Parts Catalogue",
+      "group": "parts-catalogue",
+      "applicability": ["SM5"],
+      "compilation_page_range": null,
+      "pages_total_expected": null,
+      "pages_ingested": 0,
+      "status": "SOURCE_NOT_YET_INGESTED",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "DOC-SE5-PARTS",
+      "title": "SE5 Parts Catalogue",
+      "group": "parts-catalogue",
+      "applicability": ["SE5"],
+      "compilation_page_range": null,
+      "pages_total_expected": null,
+      "pages_ingested": 0,
+      "status": "SOURCE_NOT_YET_INGESTED",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "DOC-RT622-PARTS",
+      "title": "RT-622 Parts Catalogue",
+      "group": "parts-catalogue",
+      "applicability": ["RT-622"],
+      "compilation_page_range": null,
+      "pages_total_expected": null,
+      "pages_ingested": 0,
+      "status": "SOURCE_NOT_YET_INGESTED",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "DOC-2011-TECH-UPDATE",
+      "title": "2011 Technical Update Book",
+      "group": "technical-update",
+      "applicability": ["2011"],
+      "compilation_page_range": null,
+      "pages_total_expected": null,
+      "pages_ingested": 0,
+      "status": "SOURCE_NOT_YET_INGESTED",
+      "verification": "UNVERIFIED"
+    }
+  ]
+}

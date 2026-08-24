@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "Explicit relationships between the 2011 Technical Update Book and base-manual procedures per BUILD.md section 17. relationship_state is one of: supplements, modifies, supersedes, clarification, related_only. Only assigned when the source explicitly supports it. Empty until ingestion runs.",
+  "relationships": []
+}

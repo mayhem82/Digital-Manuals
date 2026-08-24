@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "One entry per ingested compilation page. Empty until scripts/ingest processes the supplied 1,603-page compilation. Each entry keeps source/manual page number and compilation file page separate per BUILD.md section 5 — never a guessed global offset.",
+  "pages": []
+}

@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "Torque values, clearances, pressures, voltages, resistances, capacities, dimensions, adjustment/wear limits (BUILD.md section 13). Every entry must retain source context and what it applies to — never an isolated number. Empty until ingestion runs.",
+  "specifications": []
+}

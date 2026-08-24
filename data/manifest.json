@@ -1,0 +1,19 @@
+{
+  "source_pages_total": 1603,
+  "pages_ingested": 0,
+  "pages_text_verified": 0,
+  "pages_visual_verified": 0,
+  "procedures": 0,
+  "diagrams": 0,
+  "fault_codes": 0,
+  "glossary_terms": 0,
+  "specifications": 0,
+  "cross_references": 0,
+  "source_gaps": [
+    "GAP-0001",
+    "GAP-0002"
+  ],
+  "build_timestamp": "2026-08-24T06:51:17.278Z",
+  "commit": "fa01846086857f2c44e01636c9690dab64ec8a3c",
+  "documents_registered": 7
+}

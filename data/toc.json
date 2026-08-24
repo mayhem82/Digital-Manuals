@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "One contents tree per source document (BUILD.md section 9). Each entry preserves original source wording and source/manual page numbers exactly; 'destination' resolves to a pages.json id once that page is ingested, or null + missing:true when genuinely absent from the compilation (see data/source-gaps.json). Empty until ingestion runs.",
+  "documents": []
+}

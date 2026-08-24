@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "Links between service-manual components and parts-catalogue entries per BUILD.md section 16 (procedure, exploded view, part name/number, model/year/transmission applicability, related technical update). Compatibility is never inferred beyond the supplied source. Empty until ingestion runs.",
+  "links": []
+}

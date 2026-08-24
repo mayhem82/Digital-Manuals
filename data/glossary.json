@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "Glossary per BUILD.md section 11. Empty until ingestion extracts terms from the source manual. Terms in rendered manual text are made tappable by src/glossary against this list.",
+  "terms": []
+}

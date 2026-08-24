@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "note": "Explicit register of source material known to be absent from the supplied compilation, per BUILD.md section 4. Nothing here is fabricated or replaced — every gap is rendered in the UI as 'SOURCE MATERIAL NOT PRESENT IN SUPPLIED COMPILATION'.",
+  "gaps": [
+    {
+      "id": "GAP-0001",
+      "document": "DOC-SPYDER-SHOP",
+      "description": "Main Spyder shop manual table of contents references source/manual pages 753-754, but those pages are not physically present in the supplied 1,603-page compilation.",
+      "source_manual_pages": [753, 754],
+      "compilation_page": null,
+      "status": "SOURCE MISSING"
+    },
+    {
+      "id": "GAP-0002",
+      "document": "DOC-2011-TECH-UPDATE",
+      "description": "The 2011 Technical Update Book is known to contain missing page ranges within the supplied compilation. Exact ranges are not yet identified — this entry will be replaced with specific source/manual page numbers once ingestion locates the gap boundaries. Recorded here so the gap is never silently absorbed into a global offset assumption.",
+      "source_manual_pages": [],
+      "compilation_page": null,
+      "status": "SOURCE MISSING"
+    }
+  ]
+}

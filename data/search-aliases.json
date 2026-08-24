@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "note": "Deterministic alias table for search layers 3-5 (glossary aliases, component aliases, owner/plain-language synonyms) per BUILD.md section 10. No LLM reinterprets queries at runtime — this table is the entire alias mechanism. Seeded with the examples given directly in BUILD.md; further aliases are added explicitly as ingestion discovers component names and owner language in the source, never inferred silently.",
+  "aliases": [
+    { "from": "gearbox computer", "to": "TCM" },
+    { "from": "air suspension", "to": "ACS" },
+    { "from": "temperature sensor", "to": "CTS" },
+    { "from": "turns over but will not fire", "to": "crank/no-start" },
+    { "from": "go backwards", "to": "reverse" }
+  ]
+}

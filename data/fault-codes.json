@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "Fault-code register per BUILD.md section 14. Causes are never inferred beyond what the source manual states. Empty until ingestion runs.",
+  "fault_codes": []
+}

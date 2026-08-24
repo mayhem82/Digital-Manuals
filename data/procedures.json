@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "Structured procedure records per BUILD.md section 12. Empty until ingestion extracts procedures from the source. Schema shown via scripts/ingest/extract_text.py's expected output shape.",
+  "procedures": []
+}

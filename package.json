@@ -1,0 +1,18 @@
+{
+  "name": "digital-manuals",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Digital workshop manual platform (Can-Am Spyder RT/RT-S 2010-2011) built from structured, verified data rather than a wrapped PDF.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/validate/validate.mjs && node scripts/build/generate-manifest.mjs && tsc -p tsconfig.json --noEmit && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate/validate.mjs",
+    "manifest": "node scripts/build/generate-manifest.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vite": "^5.4.0"
+  }
+}

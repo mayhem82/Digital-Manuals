@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "Retained visual material per BUILD.md section 8 — wiring diagrams, exploded views, photographs, connector layouts, etc. Each entry follows the metadata shape specified in BUILD.md (id, document, source_page, compilation_page, type, title, system, applicability, asset, verified). Empty until visual extraction runs.",
+  "visuals": []
+}

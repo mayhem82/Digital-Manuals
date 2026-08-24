@@ -1,0 +1,5 @@
+{
+  "schema_version": 1,
+  "note": "Cross-reference graph linking procedures, specifications, fault codes, diagrams, glossary terms and parts across documents (BUILD.md section 14 build sequence step). Empty until ingestion runs; scripts/validate checks every target here actually resolves.",
+  "references": []
+}

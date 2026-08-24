@@ -1,0 +1,13 @@
+{
+  "name": "Digital Manuals — Can-Am Spyder RT/RT-S",
+  "short_name": "Digital Manuals",
+  "description": "Structured digital workshop manual for the 2010-2011 Can-Am Spyder RT/RT-S.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
