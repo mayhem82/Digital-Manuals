@@ -4,3 +4,10 @@ dist-offline/
 *.zip
 *.log
 .DS_Store
+
+# Raw source PDF lives here locally during ingestion — never committed
+# (BUILD.md: the PDF is an archival ingestion source, not part of the product).
+source-pdf/*
+!source-pdf/.gitkeep
+!source-pdf/README.md
+*.pdf
