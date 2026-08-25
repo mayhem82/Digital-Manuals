@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "node scripts/validate/validate.mjs && node scripts/build/generate-manifest.mjs && tsc -p tsconfig.json --noEmit && vite build",
+    "build:offline": "node scripts/validate/validate.mjs && node scripts/build/generate-manifest.mjs && tsc -p tsconfig.json --noEmit && vite build --base=./ --outDir dist-offline",
     "preview": "vite preview",
     "validate": "node scripts/validate/validate.mjs",
     "manifest": "node scripts/build/generate-manifest.mjs"
