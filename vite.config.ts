@@ -1,10 +1,11 @@
 import { defineConfig } from "vite";
 
-// Repo is served from GitHub Pages at /digital-manuals/, so every asset path
-// needs that base — for build, preview, and dev alike (dev then serves at
-// http://localhost:5173/digital-manuals/, not at the root).
+// Repo is served from GitHub Pages at /Digital-Manuals/ (GitHub Pages paths
+// are case-sensitive and must match the repo name's actual casing exactly),
+// so every asset path needs that base — for build, preview, and dev alike
+// (dev then serves at http://localhost:5173/Digital-Manuals/, not at the root).
 export default defineConfig(() => ({
-  base: "/digital-manuals/",
+  base: "/Digital-Manuals/",
   publicDir: "public",
   build: {
     outDir: "build-output",
