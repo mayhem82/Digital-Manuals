@@ -33,10 +33,10 @@
       "applicability": ["2010", "2011", "RT", "RT-S"],
       "compilation_page_range": [831, 1002],
       "pages_total_expected": 172,
-      "pages_ingested": 134,
-      "status": "OCR_IN_PROGRESS",
+      "pages_ingested": 172,
+      "status": "OCR_RECOVERED",
       "verification": "UNVERIFIED",
-      "note": "Outline: Flat Rate Times Chart (831) -- 2010 Spyder Models (831), 2011 Spyder Models (917). The source font has no usable ToUnicode CMap, so text is coming from OCR (scripts/ingest/ocr_extract_text.py) rather than the PDF's text layer -- still UNVERIFIED. 38 pages not yet processed or queued as diagram/photo pages."
+      "note": "Outline: Flat Rate Times Chart (831) -- 2010 Spyder Models (831), 2011 Spyder Models (917). The source font has no usable ToUnicode CMap, so text came from OCR (scripts/ingest/ocr_extract_text.py) rather than the PDF's text layer -- still UNVERIFIED, OCR is not perfect."
     },
     {
       "id": "DOC-SE5-PARTS-2010",
@@ -117,10 +117,10 @@
       "applicability": ["2011"],
       "compilation_page_range": [1521, 1603],
       "pages_total_expected": 83,
-      "pages_ingested": 0,
-      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "pages_ingested": 80,
+      "status": "OCR_RECOVERED",
       "verification": "UNVERIFIED",
-      "note": "All 83 pages use the broken font (one page initially looked clean but was garbage that just didn't match the (cid:N) pattern) and are queued for human review pending OCR or an alternate extraction method."
+      "note": "The source font has no usable ToUnicode CMap, so text came from OCR (scripts/ingest/ocr_extract_text.py) rather than the PDF's text layer -- still UNVERIFIED, OCR is not perfect. 3 pages remain queued as blank or genuine diagram/photo pages."
     }
   ]
 }

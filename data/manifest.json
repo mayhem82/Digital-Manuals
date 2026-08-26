@@ -1,6 +1,6 @@
 {
   "source_pages_total": 1603,
-  "pages_ingested": 1366,
+  "pages_ingested": 1484,
   "pages_text_verified": 0,
   "pages_visual_verified": 0,
   "procedures": 0,
@@ -13,7 +13,7 @@
     "GAP-0001",
     "GAP-0002"
   ],
-  "build_timestamp": "2026-08-26T09:54:28.272Z",
-  "commit": "f1e42056755f1ccb181374dc271fac847a726007",
+  "build_timestamp": "2026-08-26T22:11:34.876Z",
+  "commit": "47c95d9d86def53df26207d01efebef6fd39e715",
   "documents_registered": 10
 }
