@@ -16,17 +16,28 @@ PAGES_PATH = ROOT / "data" / "pages.json"
 REVIEW_QUEUE_PATH = ROOT / "scripts" / "ingest" / "human-review-queue.json"
 
 GARBLED_SIGNS = (
-    re.compile(r"\.{5,}"),          # long dot leaders that didn't collapse
     re.compile(r"(?:\d\s){6,}\d"),  # scattered single-digit runs
     re.compile(r"\(cid:\d+\)"),  # unmapped glyph ref -- broken/subsetted font, no ToUnicode CMap
 )
+
+# A genuine table-of-contents dot leader always resolves to a page reference
+# (arabic digits or roman numerals) shortly after the dots -- e.g.
+# "MAINTENANCE SCHEDULE ....... 7" or "SAFETY NOTICE ....... XII". A *broken*
+# leader that "didn't collapse" runs into more scattered dots/junk instead.
+DOT_LEADER_LINE = re.compile(r"\.{5,}")
+DOT_LEADER_RESOLVES = re.compile(r"\.{5,}\s*[IVXLCDM]*\d*[IVXLCDM]*\s*$", re.IGNORECASE)
 
 
 def looks_garbled(text: str) -> bool:
     if not text.strip():
         return True
     hits = sum(1 for pattern in GARBLED_SIGNS if pattern.search(text))
-    return hits > 0
+    if hits > 0:
+        return True
+    for line in text.splitlines():
+        if DOT_LEADER_LINE.search(line) and not DOT_LEADER_RESOLVES.search(line):
+            return True
+    return False
 
 
 def load_json(path: Path, default):
