@@ -1,83 +1,126 @@
 {
   "schema_version": 1,
-  "note": "Document registry for the supplied 2010-2011 Can-Am Spyder RT/RT-S source compilation (1,603 compilation pages). Populated by scripts/ingest once the source PDF is supplied locally; no source has been ingested yet, so page counts and status below reflect that.",
+  "note": "Document registry for the supplied 2010-2011 Can-Am Spyder RT/RT-S source compilation (1,603 compilation pages). Page ranges below come from the source PDF's own embedded outline/bookmarks (read via PyMuPDF get_toc()) -- explicit source data, not a guessed offset, per BUILD.md section 5. The parts-catalogue group in BUILD.md section 3 is split into per-model-year entries here because the outline itself lists SE5/SM5/RT-622 parts catalogues as separate 2010 and 2011 sections rather than one contiguous block per catalogue. IMPORTANT: every document except DOC-SPYDER-SHOP is built on a font the source PDF embeds without a usable ToUnicode CMap -- pdfplumber (and PyMuPDF) cannot recover real characters from it, only unmapped glyph references or a scrambled substitution of the actual text. See each affected document's note and scripts/ingest/README.md.",
   "documents": [
     {
       "id": "DOC-SPYDER-SHOP",
       "title": "2010-2011 Can-Am Spyder RT / RT-S Shop Manual",
       "group": "shop-manual",
       "applicability": ["2010", "2011", "RT", "RT-S"],
-      "compilation_page_range": null,
-      "pages_total_expected": null,
-      "pages_ingested": 0,
-      "status": "SOURCE_NOT_YET_INGESTED",
-      "verification": "UNVERIFIED"
+      "compilation_page_range": [1, 779],
+      "pages_total_expected": 779,
+      "pages_ingested": 685,
+      "status": "TEXT_EXTRACTION_COMPLETE",
+      "verification": "UNVERIFIED",
+      "note": "Outline sub-sections: Table of Contents (5), Service Tools Index (27), Maintenance (33), Engine (41), Electronic Management System (295), Fuel System (369), Fuel Tank and Pump (415), Electrical System (439, includes a FUSES insert at 440), Drive System (578), Chassis (596), Technical Specifications (772). The only document with a normally-encoded font -- text extraction is reliable here."
     },
     {
       "id": "DOC-RT622-SHOP",
       "title": "RT-622 Trailer Shop Manual",
       "group": "shop-manual",
       "applicability": ["RT-622"],
-      "compilation_page_range": null,
-      "pages_total_expected": null,
+      "compilation_page_range": [780, 830],
+      "pages_total_expected": 51,
       "pages_ingested": 0,
-      "status": "SOURCE_NOT_YET_INGESTED",
-      "verification": "UNVERIFIED"
+      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "verification": "UNVERIFIED",
+      "note": "Outline: Spyder Trailer Service Manual (780) -- Table of Contents, Introduction, Maintenance Schedule, Wheels and Hubs, Lights and Harness, Procedures, RT 622 Trailer Specifications. All 51 pages use the broken font (one page initially looked clean but was garbage that just didn't match the (cid:N) pattern) and are queued for human review pending OCR or an alternate extraction method."
     },
     {
       "id": "DOC-FLAT-RATE",
       "title": "Flat-Rate Manuals",
       "group": "flat-rate",
       "applicability": ["2010", "2011", "RT", "RT-S"],
-      "compilation_page_range": null,
-      "pages_total_expected": null,
+      "compilation_page_range": [831, 1002],
+      "pages_total_expected": 172,
       "pages_ingested": 0,
-      "status": "SOURCE_NOT_YET_INGESTED",
-      "verification": "UNVERIFIED"
+      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "verification": "UNVERIFIED",
+      "note": "Outline: Flat Rate Times Chart (831) -- 2010 Spyder Models (831), 2011 Spyder Models (917). All 172 pages use the broken font and are queued for human review pending OCR or an alternate extraction method."
     },
     {
-      "id": "DOC-SM5-PARTS",
-      "title": "SM5 Parts Catalogue",
+      "id": "DOC-SE5-PARTS-2010",
+      "title": "2010 Spyder RT/RT-S SE5 (Electric Shift) Parts Catalogue",
       "group": "parts-catalogue",
-      "applicability": ["SM5"],
-      "compilation_page_range": null,
-      "pages_total_expected": null,
+      "applicability": ["2010", "RT", "RT-S", "SE5"],
+      "compilation_page_range": [1003, 1126],
+      "pages_total_expected": 124,
       "pages_ingested": 0,
-      "status": "SOURCE_NOT_YET_INGESTED",
-      "verification": "UNVERIFIED"
+      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "verification": "UNVERIFIED",
+      "note": "All 124 pages use the broken font and are queued for human review pending OCR or an alternate extraction method."
     },
     {
-      "id": "DOC-SE5-PARTS",
-      "title": "SE5 Parts Catalogue",
+      "id": "DOC-SM5-PARTS-2010",
+      "title": "2010 Spyder RT/RT-S SM5 (Manual Shift) Parts Catalogue",
       "group": "parts-catalogue",
-      "applicability": ["SE5"],
-      "compilation_page_range": null,
-      "pages_total_expected": null,
+      "applicability": ["2010", "RT", "RT-S", "SM5"],
+      "compilation_page_range": [1127, 1247],
+      "pages_total_expected": 121,
       "pages_ingested": 0,
-      "status": "SOURCE_NOT_YET_INGESTED",
-      "verification": "UNVERIFIED"
+      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "verification": "UNVERIFIED",
+      "note": "All 121 pages use the broken font and are queued for human review pending OCR or an alternate extraction method."
     },
     {
-      "id": "DOC-RT622-PARTS",
-      "title": "RT-622 Parts Catalogue",
+      "id": "DOC-SE5-PARTS-2011",
+      "title": "2011 Spyder RT SE5 (Electric Shift) Parts Catalogue",
       "group": "parts-catalogue",
-      "applicability": ["RT-622"],
-      "compilation_page_range": null,
-      "pages_total_expected": null,
+      "applicability": ["2011", "RT", "SE5"],
+      "compilation_page_range": [1248, 1371],
+      "pages_total_expected": 124,
       "pages_ingested": 0,
-      "status": "SOURCE_NOT_YET_INGESTED",
-      "verification": "UNVERIFIED"
+      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "verification": "UNVERIFIED",
+      "note": "All 124 pages use the broken font and are queued for human review pending OCR or an alternate extraction method."
+    },
+    {
+      "id": "DOC-SM5-PARTS-2011",
+      "title": "2011 Spyder RT SM5 (Manual Shift) Parts Catalogue",
+      "group": "parts-catalogue",
+      "applicability": ["2011", "RT", "SM5"],
+      "compilation_page_range": [1372, 1493],
+      "pages_total_expected": 122,
+      "pages_ingested": 0,
+      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "verification": "UNVERIFIED",
+      "note": "All 122 pages use the broken font and are queued for human review pending OCR or an alternate extraction method."
+    },
+    {
+      "id": "DOC-RT622-PARTS-2010",
+      "title": "2010 Spyder Trailer (RT-622) Parts Catalogue",
+      "group": "parts-catalogue",
+      "applicability": ["2010", "RT-622"],
+      "compilation_page_range": [1494, 1506],
+      "pages_total_expected": 13,
+      "pages_ingested": 0,
+      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "verification": "UNVERIFIED",
+      "note": "All 13 pages use the broken font and are queued for human review pending OCR or an alternate extraction method."
+    },
+    {
+      "id": "DOC-RT622-PARTS-2011",
+      "title": "2011 Spyder Trailer (RT-622) Parts Catalogue",
+      "group": "parts-catalogue",
+      "applicability": ["2011", "RT-622"],
+      "compilation_page_range": [1507, 1520],
+      "pages_total_expected": 14,
+      "pages_ingested": 0,
+      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "verification": "UNVERIFIED",
+      "note": "All 14 pages use the broken font and are queued for human review pending OCR or an alternate extraction method."
     },
     {
       "id": "DOC-2011-TECH-UPDATE",
       "title": "2011 Technical Update Book",
       "group": "technical-update",
       "applicability": ["2011"],
-      "compilation_page_range": null,
-      "pages_total_expected": null,
+      "compilation_page_range": [1521, 1603],
+      "pages_total_expected": 83,
       "pages_ingested": 0,
-      "status": "SOURCE_NOT_YET_INGESTED",
-      "verification": "UNVERIFIED"
+      "status": "TEXT_LAYER_UNUSABLE_BROKEN_FONT",
+      "verification": "UNVERIFIED",
+      "note": "All 83 pages use the broken font (one page initially looked clean but was garbage that just didn't match the (cid:N) pattern) and are queued for human review pending OCR or an alternate extraction method."
     }
   ]
 }

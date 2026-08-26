@@ -18,6 +18,7 @@ REVIEW_QUEUE_PATH = ROOT / "scripts" / "ingest" / "human-review-queue.json"
 GARBLED_SIGNS = (
     re.compile(r"\.{5,}"),          # long dot leaders that didn't collapse
     re.compile(r"(?:\d\s){6,}\d"),  # scattered single-digit runs
+    re.compile(r"\(cid:\d+\)"),  # unmapped glyph ref -- broken/subsetted font, no ToUnicode CMap
 )
 
 
@@ -30,7 +31,7 @@ def looks_garbled(text: str) -> bool:
 
 def load_json(path: Path, default):
     if path.exists():
-        return json.loads(path.read_text())
+        return json.loads(path.read_text(encoding="utf-8"))
     return default
 
 
@@ -56,7 +57,7 @@ def main() -> int:
 
     page_map = {}
     if args.page_map:
-        page_map = {int(k): v for k, v in json.loads(args.page_map.read_text()).items()}
+        page_map = {int(k): v for k, v in json.loads(args.page_map.read_text(encoding="utf-8")).items()}
 
     pages_doc = load_json(PAGES_PATH, {"schema_version": 1, "pages": []})
     existing_ids = {p["id"] for p in pages_doc["pages"]}
@@ -93,8 +94,8 @@ def main() -> int:
             })
             added += 1
 
-    PAGES_PATH.write_text(json.dumps(pages_doc, indent=2) + "\n")
-    REVIEW_QUEUE_PATH.write_text(json.dumps(review_queue, indent=2) + "\n")
+    PAGES_PATH.write_text(json.dumps(pages_doc, indent=2) + "\n", encoding="utf-8")
+    REVIEW_QUEUE_PATH.write_text(json.dumps(review_queue, indent=2) + "\n", encoding="utf-8")
     print(f"Added {added} page(s). {len(review_queue)} page(s) queued for human review.")
     return 0
 

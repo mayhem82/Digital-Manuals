@@ -1,5 +1,252 @@
 {
   "schema_version": 1,
-  "note": "Glossary per BUILD.md section 11. Empty until ingestion extracts terms from the source manual. Terms in rendered manual text are made tappable by src/glossary against this list.",
-  "terms": []
+  "note": "Glossary per BUILD.md section 11. Seeded from the shop manual's own printed acronym table (Section 05 Electrical System > Power Distribution and Grounds, compilation page 440) and the Fuel System / Gearbox subsection headings for individually-named sensors. 'plain' is a plain-language restatement of the source-defined term, not an inferred diagnostic claim. compilation_page values for the fuel-sensor entries are computed from a verified, source-anchored +26 page offset within that subsection (cross-checked against the section's own running page headers) and may be off by up to a page or two — source_page is the exact, verbatim value printed in the manual's own table of contents. More terms will be added as ingestion continues.",
+  "terms": [
+    {
+      "term": "BLS",
+      "expanded": "Brake lights switch",
+      "plain": "The switch that turns on the brake light when the brake is applied.",
+      "aliases": ["brake light switch"],
+      "systems": ["Electrical"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "CAPS",
+      "expanded": "Camshaft position sensor",
+      "plain": "Sensor that tells the engine control module the camshaft's rotational position, used for ignition and fuel injection timing.",
+      "aliases": ["camshaft position sensor", "camshaft sensor"],
+      "systems": ["Electrical", "Fuel System", "Engine"],
+      "sources": [
+        { "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 },
+        { "document": "DOC-SPYDER-SHOP", "source_page": 362, "compilation_page": 389 }
+      ],
+      "related_terms": ["CPS"]
+    },
+    {
+      "term": "CSV",
+      "expanded": "Clutch valve solenoid",
+      "plain": "A solenoid valve that controls hydraulic clutch engagement/disengagement (SM5 models).",
+      "aliases": ["clutch solenoid valve"],
+      "systems": ["Electrical", "Drive System"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "CTG",
+      "expanded": "Coolant temperature gauge",
+      "plain": "The dashboard gauge that displays engine coolant temperature to the rider.",
+      "aliases": ["coolant temperature gauge", "temperature gauge"],
+      "systems": ["Electrical"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": ["CTS"]
+    },
+    {
+      "term": "CTS",
+      "expanded": "Coolant temperature sensor",
+      "plain": "Sensor that measures engine coolant temperature and reports it to the engine control module and the dashboard gauge.",
+      "aliases": ["coolant temperature sensor", "temperature sensor"],
+      "systems": ["Electrical", "Fuel System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 370, "compilation_page": 396 }],
+      "related_terms": ["CTG"]
+    },
+    {
+      "term": "DLC",
+      "expanded": "Diagnostic link connector",
+      "plain": "The connector used to plug in a diagnostic tool (such as B.U.D.S.) to read fault codes and system data.",
+      "aliases": ["diagnostic connector", "diagnostic link connector"],
+      "systems": ["Electrical", "Electronic Management System"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "DPS",
+      "expanded": "Dynamic power steering",
+      "plain": "The vehicle's power-assisted steering system.",
+      "aliases": ["power steering", "dynamic power steering"],
+      "systems": ["Electrical", "Chassis"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": ["SAS"]
+    },
+    {
+      "term": "ECM",
+      "expanded": "Engine control module",
+      "plain": "The onboard computer that manages fuel injection, ignition timing, and other engine functions.",
+      "aliases": ["engine computer", "engine control module"],
+      "systems": ["Electrical", "Fuel System", "Engine", "Electronic Management System"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": ["TCM", "VCM"]
+    },
+    {
+      "term": "FG",
+      "expanded": "Fuel gauge",
+      "plain": "The dashboard gauge showing remaining fuel level.",
+      "aliases": ["fuel gauge"],
+      "systems": ["Electrical", "Fuel System"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "FSCL",
+      "expanded": "Front storage compartment light",
+      "plain": "The light inside the front storage compartment (frunk).",
+      "aliases": ["front storage light", "frunk light"],
+      "systems": ["Electrical", "Body"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "MSR",
+      "expanded": "Multifunction switch right",
+      "plain": "The right-hand handlebar multifunction switch cluster.",
+      "aliases": ["right multifunction switch"],
+      "systems": ["Electrical"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "PBS",
+      "expanded": "Parking brake switch",
+      "plain": "The switch associated with the electric parking brake system.",
+      "aliases": ["parking brake switch"],
+      "systems": ["Electrical", "Chassis"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "PRS",
+      "expanded": "Pillion rider (passenger) switch",
+      "plain": "A switch that detects whether a passenger is seated, used by other vehicle systems.",
+      "aliases": ["passenger switch", "pillion rider switch"],
+      "systems": ["Electrical", "Chassis"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "SAS",
+      "expanded": "Steering angle sensor",
+      "plain": "Sensor that measures the steering angle for the dynamic power steering and stability systems.",
+      "aliases": ["steering angle sensor"],
+      "systems": ["Electrical", "Chassis"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": ["DPS"]
+    },
+    {
+      "term": "TCM",
+      "expanded": "Transmission control module",
+      "plain": "The onboard computer that manages gear shifting on SE5 (electric shift) models.",
+      "aliases": ["gearbox computer", "transmission control module"],
+      "systems": ["Electrical", "Drive System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": ["GBPS", "ECM"]
+    },
+    {
+      "term": "VCM",
+      "expanded": "Vehicle control module",
+      "plain": "The onboard computer that manages chassis systems such as stability control and suspension.",
+      "aliases": ["vehicle control module"],
+      "systems": ["Electrical", "Chassis"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": ["ECM"]
+    },
+    {
+      "term": "WPM",
+      "expanded": "Windshield and parking brake module",
+      "plain": "The control module that operates the adjustable windshield and the electric parking brake.",
+      "aliases": ["windshield module", "parking brake module"],
+      "systems": ["Electrical", "Body", "Chassis"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "YRS",
+      "expanded": "Yaw rate sensor",
+      "plain": "Sensor that measures the vehicle's rotation rate around its vertical axis, used by the stability control system.",
+      "aliases": ["yaw rate sensor"],
+      "systems": ["Electrical", "Chassis"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 414, "compilation_page": 440 }],
+      "related_terms": []
+    },
+    {
+      "term": "TPS",
+      "expanded": "Throttle position sensor",
+      "plain": "Sensor that reports throttle body opening angle to the engine control module.",
+      "aliases": ["throttle position sensor"],
+      "systems": ["Fuel System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 357, "compilation_page": 383 }],
+      "related_terms": ["TAS", "ETA"]
+    },
+    {
+      "term": "CPS",
+      "expanded": "Crankshaft position sensor",
+      "plain": "Sensor that tells the engine control module the crankshaft's rotational position and speed, used for ignition and fuel injection timing.",
+      "aliases": ["crankshaft position sensor", "crank sensor"],
+      "systems": ["Fuel System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 361, "compilation_page": 387 }],
+      "related_terms": ["CAPS"]
+    },
+    {
+      "term": "MAPS",
+      "expanded": "Manifold absolute pressure sensor",
+      "plain": "Sensor that measures intake manifold pressure, used to calculate engine load for fuel injection.",
+      "aliases": ["manifold absolute pressure sensor", "map sensor"],
+      "systems": ["Fuel System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 364, "compilation_page": 390 }],
+      "related_terms": []
+    },
+    {
+      "term": "AAPTS",
+      "expanded": "Ambient air pressure and temperature sensor",
+      "plain": "Sensor that measures outside air pressure and temperature so the engine control module can adjust fuel delivery for altitude and climate.",
+      "aliases": ["ambient air pressure and temperature sensor"],
+      "systems": ["Fuel System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 367, "compilation_page": 393 }],
+      "related_terms": []
+    },
+    {
+      "term": "HO2S",
+      "expanded": "Heated oxygen sensor",
+      "plain": "Sensor in the exhaust that measures oxygen content to help the engine control module keep the air/fuel mixture correct.",
+      "aliases": ["heated oxygen sensor", "oxygen sensor", "O2 sensor"],
+      "systems": ["Fuel System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 372, "compilation_page": 398 }],
+      "related_terms": []
+    },
+    {
+      "term": "KS",
+      "expanded": "Knock sensor",
+      "plain": "Sensor that detects engine knock (abnormal combustion) so ignition timing can be adjusted to protect the engine.",
+      "aliases": ["knock sensor"],
+      "systems": ["Fuel System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 377, "compilation_page": 403 }],
+      "related_terms": []
+    },
+    {
+      "term": "TAS",
+      "expanded": "Throttle accelerator sensor",
+      "plain": "Sensor on the throttle handle/grip that reports rider throttle input to the engine control module.",
+      "aliases": ["throttle accelerator sensor", "throttle grip sensor"],
+      "systems": ["Fuel System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 378, "compilation_page": 404 }],
+      "related_terms": ["TPS", "ETA"]
+    },
+    {
+      "term": "ETA",
+      "expanded": "Electric throttle actuator",
+      "plain": "The motorized throttle body actuator that opens and closes the throttle under engine control module command (ride-by-wire).",
+      "aliases": ["electric throttle actuator", "ride by wire actuator"],
+      "systems": ["Fuel System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 379, "compilation_page": 405 }],
+      "related_terms": ["TAS", "TPS"]
+    },
+    {
+      "term": "GBPS",
+      "expanded": "Gearbox position sensor",
+      "plain": "Sensor that tells the system which gearbox position is selected.",
+      "aliases": ["gear position sensor", "gearbox position sensor"],
+      "systems": ["Drive System", "Engine"],
+      "sources": [{ "document": "DOC-SPYDER-SHOP", "source_page": 253, "compilation_page": 279 }],
+      "related_terms": ["TCM"]
+    }
+  ]
 }

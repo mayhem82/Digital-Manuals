@@ -1,19 +1,19 @@
 {
   "source_pages_total": 1603,
-  "pages_ingested": 0,
+  "pages_ingested": 685,
   "pages_text_verified": 0,
   "pages_visual_verified": 0,
   "procedures": 0,
   "diagrams": 0,
   "fault_codes": 0,
-  "glossary_terms": 0,
+  "glossary_terms": 27,
   "specifications": 0,
   "cross_references": 0,
   "source_gaps": [
     "GAP-0001",
     "GAP-0002"
   ],
-  "build_timestamp": "2026-08-25T11:48:44.233Z",
-  "commit": "140bf5889a841065eb7e1d06b94e8591e3aacb52",
-  "documents_registered": 7
+  "build_timestamp": "2026-08-26T00:44:21.563Z",
+  "commit": "e6c5fda9c7930af630899ba5d78791444da4d28c",
+  "documents_registered": 10
 }

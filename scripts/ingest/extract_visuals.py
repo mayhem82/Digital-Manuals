@@ -29,7 +29,7 @@ DEFAULT_DIR = "assets/diagrams"
 
 def load_json(path: Path, default):
     if path.exists():
-        return json.loads(path.read_text())
+        return json.loads(path.read_text(encoding="utf-8"))
     return default
 
 
@@ -52,7 +52,7 @@ def main() -> int:
         print(f"PDF not found: {args.pdf}", file=sys.stderr)
         return 1
 
-    entries = json.loads(args.manifest.read_text())
+    entries = json.loads(args.manifest.read_text(encoding="utf-8"))
     diagrams_doc = load_json(DIAGRAMS_PATH, {"schema_version": 1, "visuals": []})
     existing_ids = {v["id"] for v in diagrams_doc["visuals"]}
 
@@ -91,7 +91,7 @@ def main() -> int:
         })
         added += 1
 
-    DIAGRAMS_PATH.write_text(json.dumps(diagrams_doc, indent=2) + "\n")
+    DIAGRAMS_PATH.write_text(json.dumps(diagrams_doc, indent=2) + "\n", encoding="utf-8")
     print(f"Rendered {added} visual(s). Each is marked verified:false until reviewed against the source.")
     return 0
 

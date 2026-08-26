@@ -1,5 +1,312 @@
 {
   "schema_version": 1,
-  "note": "One contents tree per source document (BUILD.md section 9). Each entry preserves original source wording and source/manual page numbers exactly; 'destination' resolves to a pages.json id once that page is ingested, or null + missing:true when genuinely absent from the compilation (see data/source-gaps.json). Empty until ingestion runs.",
-  "documents": []
+  "note": "One contents tree per source document (BUILD.md section 9). Each entry preserves original source wording and source/manual page numbers exactly. For DOC-SPYDER-SHOP, section/subsection destinations are resolved from the manual's own running 'Section NN NAME / Subsection NN (NAME)' page headers (scripts/ingest/scan_section_headers.py) -- verified anchors, not a guessed page-offset formula (BUILD.md section 5) -- falling forward to the next ingested page within a subsection's range when its own first page went to the human-review queue. Leaf-level topic entries within each subsection are not yet split out (source_page numbers for the deepest topic lines aren't reliably OCR-extractable on every TOC page); the 09 WIRING DIAGRAM entry is marked missing per GAP-0001. DOC-RT622-SHOP's tree uses the PDF's own outline/bookmarks directly (reliable) but has no resolved destinations: every page in that document's range uses a font the source PDF embeds without a usable ToUnicode CMap, so no page's text is machine-readable yet (documents.json status TEXT_LAYER_UNUSABLE_BROKEN_FONT) -- these are left unresolved, not marked missing, since the pages physically exist. Other documents' trees are still empty pending the same treatment.",
+  "documents": [
+    {
+      "document": "DOC-SPYDER-SHOP",
+      "nodes": [
+        {
+          "label": "01 MAINTENANCE",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "01 - MAINTENANCE SCHEDULE",
+              "source_page": 7,
+              "destination": "PG-DOC-SPYDER-SHOP-00034"
+            },
+            {
+              "label": "02 - STORAGE PROCEDURE",
+              "source_page": 11,
+              "destination": "PG-DOC-SPYDER-SHOP-00038"
+            },
+            {
+              "label": "03 - PRESEASON PREPARATION",
+              "source_page": 13,
+              "destination": "PG-DOC-SPYDER-SHOP-00039"
+            }
+          ]
+        },
+        {
+          "label": "02 ENGINE",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "01 - ENGINE REMOVAL AND INSTALLATION",
+              "source_page": 15,
+              "destination": "PG-DOC-SPYDER-SHOP-00042"
+            },
+            {
+              "label": "02 - AIR INTAKE SYSTEM",
+              "source_page": 27,
+              "destination": "PG-DOC-SPYDER-SHOP-00054"
+            },
+            {
+              "label": "03 - EXHAUST SYSTEM",
+              "source_page": 33,
+              "destination": "PG-DOC-SPYDER-SHOP-00060"
+            },
+            {
+              "label": "04 - LUBRICATION SYSTEM",
+              "source_page": 45,
+              "destination": "PG-DOC-SPYDER-SHOP-00072"
+            },
+            {
+              "label": "05 - COOLING SYSTEM",
+              "source_page": null,
+              "destination": "PG-DOC-SPYDER-SHOP-00098"
+            },
+            {
+              "label": "06 - MAGNETO AND STARTER",
+              "source_page": null,
+              "destination": "PG-DOC-SPYDER-SHOP-00114"
+            },
+            {
+              "label": "07 - CYLINDER HEAD AND CYLINDER",
+              "source_page": null,
+              "destination": "PG-DOC-SPYDER-SHOP-00128"
+            },
+            {
+              "label": "08 - CRANKCASE AND CRANKSHAFT",
+              "source_page": 133,
+              "destination": "PG-DOC-SPYDER-SHOP-00160"
+            },
+            {
+              "label": "09 - CLUTCH (SM5)",
+              "source_page": 157,
+              "destination": "PG-DOC-SPYDER-SHOP-00184"
+            },
+            {
+              "label": "10 - CLUTCH (SE5)",
+              "source_page": 195,
+              "destination": "PG-DOC-SPYDER-SHOP-00222"
+            },
+            {
+              "label": "11 - HYDRAULIC CONTROL MODULE (SE5)",
+              "source_page": 223,
+              "destination": "PG-DOC-SPYDER-SHOP-00250"
+            },
+            {
+              "label": "12 - GEARBOX",
+              "source_page": 249,
+              "destination": "PG-DOC-SPYDER-SHOP-00276"
+            }
+          ]
+        },
+        {
+          "label": "03 ELECTRONIC MANAGEMENT SYSTEMS",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "01 - OVERVIEW",
+              "source_page": 269,
+              "destination": "PG-DOC-SPYDER-SHOP-00295"
+            },
+            {
+              "label": "02 - CONTROLLER AREA NETWORK (CAN)",
+              "source_page": 273,
+              "destination": "PG-DOC-SPYDER-SHOP-00299"
+            },
+            {
+              "label": "03 - COMMUNICATION TOOLS AND B.U.D.S.",
+              "source_page": 275,
+              "destination": "PG-DOC-SPYDER-SHOP-00302"
+            },
+            {
+              "label": "04 - DIAGNOSTIC AND FAULT CODES",
+              "source_page": 281,
+              "destination": "PG-DOC-SPYDER-SHOP-00307"
+            }
+          ]
+        },
+        {
+          "label": "04 FUEL SYSTEM",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "01 - ELECTRONIC FUEL INJECTION (EFI)",
+              "source_page": 343,
+              "destination": "PG-DOC-SPYDER-SHOP-00370"
+            },
+            {
+              "label": "02 - FUEL TANK AND FUEL PUMP",
+              "source_page": 389,
+              "destination": "PG-DOC-SPYDER-SHOP-00416"
+            }
+          ]
+        },
+        {
+          "label": "05 ELECTRICAL SYSTEM",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "01 - POWER DISTRIBUTION AND GROUNDS",
+              "source_page": 413,
+              "destination": "PG-DOC-SPYDER-SHOP-00439"
+            },
+            {
+              "label": "02 - WIRING HARNESS AND CONNECTORS",
+              "source_page": 419,
+              "destination": "PG-DOC-SPYDER-SHOP-00446"
+            },
+            {
+              "label": "03 - IGNITION SYSTEM",
+              "source_page": 451,
+              "destination": "PG-DOC-SPYDER-SHOP-00478"
+            },
+            {
+              "label": "04 - CHARGING SYSTEM",
+              "source_page": 459,
+              "destination": "PG-DOC-SPYDER-SHOP-00486"
+            },
+            {
+              "label": "05 - STARTING SYSTEM",
+              "source_page": 467,
+              "destination": "PG-DOC-SPYDER-SHOP-00495"
+            },
+            {
+              "label": "06 - DIGITALLY ENCODED SECURITY SYSTEM (D.E.S.S.)",
+              "source_page": 475,
+              "destination": "PG-DOC-SPYDER-SHOP-00503"
+            },
+            {
+              "label": "07 - LIGHTS, GAUGE AND ACCESSORIES",
+              "source_page": 481,
+              "destination": "PG-DOC-SPYDER-SHOP-00509"
+            },
+            {
+              "label": "08 - ELECTRONIC SHIFT SYSTEM (SE5)",
+              "source_page": 543,
+              "destination": "PG-DOC-SPYDER-SHOP-00571"
+            }
+          ]
+        },
+        {
+          "label": "06 DRIVE SYSTEM",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "01 - DRIVE BELT AND REAR WHEEL",
+              "source_page": 551,
+              "destination": "PG-DOC-SPYDER-SHOP-00579"
+            }
+          ]
+        },
+        {
+          "label": "07 CHASSIS",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "01 - VEHICLE STABILITY SYSTEM (VSS)",
+              "source_page": 569,
+              "destination": "PG-DOC-SPYDER-SHOP-00597"
+            },
+            {
+              "label": "02 - STEERING (DPS) AND WHEELS",
+              "source_page": 587,
+              "destination": "PG-DOC-SPYDER-SHOP-00615"
+            },
+            {
+              "label": "03 - FRONT SUSPENSION",
+              "source_page": 627,
+              "destination": "PG-DOC-SPYDER-SHOP-00655"
+            },
+            {
+              "label": "04 - REAR SUSPENSION",
+              "source_page": 639,
+              "destination": "PG-DOC-SPYDER-SHOP-00667"
+            },
+            {
+              "label": "05 - BRAKES",
+              "source_page": 665,
+              "destination": "PG-DOC-SPYDER-SHOP-00693"
+            },
+            {
+              "label": "06 - BODY",
+              "source_page": 703,
+              "destination": "PG-DOC-SPYDER-SHOP-00731"
+            },
+            {
+              "label": "07 - FRAME",
+              "source_page": 739,
+              "destination": "PG-DOC-SPYDER-SHOP-00766"
+            }
+          ]
+        },
+        {
+          "label": "08 TECHNICAL SPECIFICATIONS",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "01 - SPYDER RT (SM5/SE5)",
+              "source_page": 745,
+              "destination": "PG-DOC-SPYDER-SHOP-00772"
+            }
+          ]
+        },
+        {
+          "label": "09 WIRING DIAGRAM",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "01 - WIRING DIAGRAM INFORMATION",
+              "source_page": 753,
+              "destination": null,
+              "missing": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document": "DOC-RT622-SHOP",
+      "nodes": [
+        {
+          "label": "Spyder Trailer Service Manual",
+          "source_page": null,
+          "destination": null,
+          "children": [
+            {
+              "label": "Introduction (compilation p.783)",
+              "source_page": null,
+              "destination": null
+            },
+            {
+              "label": "Maintenance Schedule (compilation p.788)",
+              "source_page": null,
+              "destination": null
+            },
+            {
+              "label": "Wheels and Hubs (compilation p.792)",
+              "source_page": null,
+              "destination": null
+            },
+            {
+              "label": "Lights and Harness (compilation p.822)",
+              "source_page": null,
+              "destination": null
+            },
+            {
+              "label": "Procedures (compilation p.826)",
+              "source_page": null,
+              "destination": null
+            },
+            {
+              "label": "RT 622 Trailer Specifications (compilation p.829)",
+              "source_page": null,
+              "destination": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

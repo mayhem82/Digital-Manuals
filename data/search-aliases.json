@@ -6,6 +6,21 @@
     { "from": "air suspension", "to": "ACS" },
     { "from": "temperature sensor", "to": "CTS" },
     { "from": "turns over but will not fire", "to": "crank/no-start" },
-    { "from": "go backwards", "to": "reverse" }
+    { "from": "go backwards", "to": "reverse" },
+    { "from": "crank sensor", "to": "CPS" },
+    { "from": "camshaft sensor", "to": "CAPS" },
+    { "from": "map sensor", "to": "MAPS" },
+    { "from": "oxygen sensor", "to": "HO2S" },
+    { "from": "o2 sensor", "to": "HO2S" },
+    { "from": "knock sensor", "to": "KS" },
+    { "from": "throttle position sensor", "to": "TPS" },
+    { "from": "throttle grip sensor", "to": "TAS" },
+    { "from": "power steering", "to": "DPS" },
+    { "from": "steering angle sensor", "to": "SAS" },
+    { "from": "gear position sensor", "to": "GBPS" },
+    { "from": "engine computer", "to": "ECM" },
+    { "from": "brake light switch", "to": "BLS" },
+    { "from": "parking brake switch", "to": "PBS" },
+    { "from": "diagnostic connector", "to": "DLC" }
   ]
 }
