@@ -86,7 +86,7 @@ def main() -> int:
             "title": entry.get("title", ""),
             "system": entry.get("system", ""),
             "applicability": entry.get("applicability", []),
-            "asset": f"/{out_dir.relative_to(ROOT)}/{filename}",
+            "asset": f"/{out_dir.relative_to(ROOT).as_posix()}/{filename}",
             "verified": False
         })
         added += 1

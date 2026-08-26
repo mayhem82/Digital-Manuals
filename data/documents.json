@@ -9,10 +9,10 @@
       "applicability": ["2010", "2011", "RT", "RT-S"],
       "compilation_page_range": [1, 779],
       "pages_total_expected": 779,
-      "pages_ingested": 699,
+      "pages_ingested": 761,
       "status": "TEXT_EXTRACTION_MOSTLY_COMPLETE",
       "verification": "UNVERIFIED",
-      "note": "Outline sub-sections: Table of Contents (5), Service Tools Index (27), Maintenance (33), Engine (41), Electronic Management System (295), Fuel System (369), Fuel Tank and Pump (415), Electrical System (439, includes a FUSES insert at 440), Drive System (578), Chassis (596), Technical Specifications (772). The only document with a normally-encoded font -- text extraction is reliable here. 80 pages remain queued for human review; spot checks show most are genuinely blank pages in the source (deliberate print-layout spacers) rather than diagrams -- OCR classification of the rest (blank vs. real diagram/photo needing visual retention) is in progress."
+      "note": "Outline sub-sections: Table of Contents (5), Service Tools Index (27), Maintenance (33), Engine (41), Electronic Management System (295), Fuel System (369), Fuel Tank and Pump (415), Electrical System (439, includes a FUSES insert at 440), Drive System (578), Chassis (596), Technical Specifications (772). The only document with a normally-encoded font -- text extraction plus OCR recovered nearly all of it. 18 pages remain queued: spot checks (rendered + non-white-pixel-ratio check) confirm these are genuinely blank pages in the source (deliberate print-layout spacers), not diagrams. A handful of real diagrams have been found and extracted as images into data/diagrams.json (see /diagrams in the app) -- these don't show up via any image/drawing-count heuristic (the PDF's resource APIs don't reliably report them), so further diagram discovery in this document needs manual page review, not automation."
     },
     {
       "id": "DOC-RT622-SHOP",

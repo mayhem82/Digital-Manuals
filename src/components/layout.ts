@@ -6,6 +6,7 @@ const NAV_ITEMS: { path: string; label: string }[] = [
   { path: "/specifications", label: "Specifications" },
   { path: "/fault-codes", label: "Fault Codes" },
   { path: "/wiring", label: "Wiring" },
+  { path: "/diagrams", label: "Diagrams" },
   { path: "/glossary", label: "Glossary" },
   { path: "/bookmarks", label: "Bookmarks" },
   { path: "/source-gaps", label: "Source Gaps" },

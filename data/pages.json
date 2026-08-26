@@ -11873,6 +11873,502 @@
       "compilation_page": 1602,
       "text": "SECTION BRP 6\nAnnexes\nPRODUCT REBUILT PART\nPART\nENGINE\nCOOLING AMOUNT SYSTEM FIC LIc CYL. LIC 2\nYEAR\nDESCRIP_ TION\nORIGINAL PART #\nTYPE\n421000696\n990\nall\nShortblock SM5 Shortblock SES\nCan-Am Roadster\nShortblock 421000697\n990\nL/C\n2\nall\n114\n2011 Technical Update Book\nCan-Am",
       "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00008",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 8,
+      "text": "TABLE OF CONTENTS\n02 ENGINE (cont'd) 10 E CLUTCH (SES) (cont'd) PROCEDURES (cont'd) PRESSURE PLATE CLUTCH PLATES CLUTCH HOUSING CLUTCH HUB CENTRIFUGAL CLUTCH CLUTCH DRUM_ 11 E HYDRAULIC CONTROL MODULE (SES)_ GENERAL SYSTEM DESCRIPTION (COMPONENTS) SYSTEM DESCRIPTION (PRINCIPLE OF OPERATION) MAINTENANCE HCM OIL FILTER . INSPECTION HCM OIL PRESSURE TEST. PROCEDURES SHIFT AND CLUTCH SOLENOIDS OIL HOSE NIPPLE HCM OIL PRESSURE REGULATOR HYDRAULIC CONTROL MODULE (HCM) OIL PUMP INTERMEDIATE OIL PUMP GEAR_ HYDRAULIC PISTON SHIFT LINKAGE 12 = GEARBOX GENERAL TROUBLESHOOTING TROUBLESHOOTING GUIDELINES PROCEDURES_ REVERSE BUTTON TEST WITH B.UD.S. GEARBOX POSITION SENSOR (GBPS) OIL SEALS REVERSE ACTUATOR (SM5 MODEL) SHIFTING MECHANISM GEARBOX:\n203 205 207 212 213 216 223 225 225 228 232 232 232 232 234 234 237 237 238 240 243 244 246 249 253 253 253 253 253 253 255 257 260 261\n03 ELECTRONIC MANAGEMENT SYSTEMS 01 L OVERVIEW GENERAL ENGINE MANAGEMENT SYSTEM (EMS) VEHICLE STABILITY SYSTEM (VSS) DYNAMIC POWER STEERING (DPS)_ ELECTRONIC SHIFT SYSTEM (SES) 02 R CONTROLLER AREA NETWORK (CAN) GENERAL SYSTEM DESCRIPTION 03 5 COMMUNICATION TOOLS AND B.U.D.S; GENERAL TROUBLESHOOTING DIAGNOSTIC TIPS PROCEDURES MULTI-PURPOSE INTERFACE-2 (MPI-2). B.UD.S.\n269 269 270 272 272 272 273 273 273 275 275 275 275 276 276 277\nIV",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00009",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 9,
+      "text": "TABLE OF CONTENTS\n03 ELECTRONIC MANAGEMENT SYSTEMS (cont'd) 04 F DIAGNOSTIC AND FAULT CODES GENERAL MONITORING SYSTEM FAULT CODES FAULT CODE DIAGNOTIC SPECIFIC FAULT CODES FAULT CODE TABLE\n281 281 281 284 287 291 292\n04 FUEL SYSTEM 01 T ELECTRONIC FUEL INJECTION (EFI) GENERAL SYSTEM DESCRIPTION ADJUSTMENT IDLE SPEED THROTTLE POSITION SENSOR RESET TROUBLESHOOTING DIAGNOSTIC TIPS PROCEDURES FUEL RAIL FUEL INJECTOR THROTTLE BODY_ THROTTLE POSITION SENSOR (TPS) _ CRANKSHAFT POSITION SENSOR (CPS) CAMSHAFT POSITION SENSOR (CAPS) MANIFOLD ABSOLUTE PRESSURE SENSOR (MAPS) AMBIENT AIR PRESSURE AND TEMPERATURE SENSOR (AAPTS) _ COOLANT TEMPERATURE SENSOR (CTS) HEATED OXYGEN SENSOR (HO2S) KNOCK SENSOR (KS)_ THROTTLE ACCELERATOR SENSOR (TAS) ELECTRIC THROTTLE ACTUATOR (ETA)_ ENGINE CONTROL MODULE (ECM) 02 - FUEL TANK AND FUEL PUMP GENERAL SYSTEM DESCRIPTION INSPECTION_ FUEL SYSTEM LEAK TEST FUEL SYSTEM PRESSURE TEST TROUBLESHOOTING TROUBLESHOOTING TIPS DIAGNOSTIC FLOW CHART (FUEL PUMP) PROCEDURES FUEL FILTER FUEL TANK FUEL PUMP FUEL LEVEL SENSOR FUEL PRESSURE REGULATOR EVAP PURGE VALVE\n343 343 343 346 346 346 346 346 348 348 350 354 357 361 362 364 367 370 372 377 378 379 380 389 391 391 392 392 393 396 396 396 396 396 398 401 404 406 407\n05 ELECTRICAL SYSTEM 01 5 POWER DISTRIBUTION AND GROUNDS GENERAL POWER DISTRIBUTION DIAGRAM REAR FUSE BOX\n413 413 413 414\nV",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00010",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 10,
+      "text": "TABLE OF CONTENTS\n05 ELECTRICAL SYSTEM (cont'd) 01 F POWER DISTRIBUTION AND GROUNDS (cont'd) GENERAL (cont'd) VOLTAGE REGULATORIRECTIFIER FUSE FRONT FUSE BOX RELAYS GROUNDS 02 F WIRING HARNESS AND CONNECTORS GENERAL CONNECTOR ABBREVIATION DESCRIPTION WIRING HARNESS ROUTING WIRING HARNESS SPLICE LOCATION PROCEDURES. WIRING HARNESS DEUTSCH CONNECTOR MOLEX CONNECTOR (ECM) PACKARD CONNECTOR (TCM AND GAUGE) DELPHI CONNECTORS (DPS) AMP MULTILOCK CONNECTOR AMP CONNECTOR (8-CIRCUIT) BOSCH CONNECTOR (VCM) BATTERY CABLE TERMINAL 03 F IGNITION SYSTEM GENERAL SYSTEM DESCRIPTION TROUBLESHOOTING TROUBLESHOOTING GUIDELINES PROCEDURES IGNITION SWITCH_ IGNITION COILS SPARK PLUG CABLES SPARK PLUGS 04 F CHARGING SYSTEM GENERAL SYSTEM DESCRIPTION INSPECTION CHARGING SYSTEM OUTPUT TROUBLESHOOTING TROUBLESHOOTING GUIDELINES PROCEDURES VOLTAGE REGULATORIRECTIFIER BATTERY 05 L STARTING SYSTEM GENERAL SYSTEM DESCRIPTION TROUBLESHOOTING TROUBLESHOOTING TIPS STARTING SYSTEM TROUBLESHOOTING PROCEDURES ELECTRIC STARTER D2 DIODE (STARTER SOLENOID) _ ENGINE STOP SWITCH START BUTTON: PRE-STARTING RELAY STARTER SOLENOID\n414 415 416 418 419 420 420 421 431 438 438 439 440 443 444 444 446 446 448 451 451 451 451 452 452 452 455 457 457 459 459 459 460 460 461 461 462 462 463 467 467 467 467 467 467 468 468 469 471 471 472 472\nVI",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00011",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 11,
+      "text": "TABLE OF CONTENTS\n05 ELECTRICAL SYSTEM (cont'd) 05 3 STARTING SYSTEM (cont'd) PROCEDURES (cont'd) CLUTCH SWITCH 06 S DIGITALLY ENCODED SECURITY SYSTEM (D.ES.S:) GENERAL SYSTEM DESCRIPTION SYSTEM OPERATION TROUBLESHOOTING PARTS REPLACEMENT GUIDELINE_ D.E.S.S. MODULE DIAGNOSIS_ PROCEDURES KEYS DE.S.S. MODULE 07 E LIGHTS, GAUGE AND ACCESSORIES: GENERAL SYSTEM DESCRIPTION (LIGHTING SYSTEM) SYSTEM DESCRIPTION (MULTIFUNCTION GAUGE) SYSTEM DESCRIPTION (REAR STORAGE COMPARTMENTS 2010 MODELS) SYSTEM DESCRIPTION (REAR STORAGE COMPARTMENT 2011 MODELS) SYSTEM DESCRIPTION (LEFT MULTIFUNCTION SWITCH) SYSTEM DESCRIPTION (CRUISE CONTROL) SYSTEM DESCRIPTION (AUDIO AND COMMUNICATION SYSTEMS) TROUBLESHOOTING DIAGNOSTIC TIPS MULTIFUNCTION GAUGE TROUBLESHOOTING PROCEDURES HEADLIGHTS FOG LIGHTS (OPTION PACKAGE) LICENSE PLATE LIGHT TURN SIGNAL LIGHTSIHAZARD WARNING LIGHTS TURN SIGNAL SWITCH HAZARD WARNING LIGHTS SWITCH_ TAILLIGHTIBRAKE LIGHT_ POSITION LIGHTS BACK UP LIGHTS MULTIFUNCTION GAUGE ANALOG COOLANT TEMPERATURE GAUGE ANALOG COOLANT TEMPERATURE GAUGE LEFT MULTIFUNCTION SWITCH FRONT HEATED GRIPS PASSENGER HEATED GRIP SWITCH RADIO MODULE PASSENGER RADIO CONTROL SWITCHES SPEAKERS AUXILIARY AUDIO IN JACK ANTENNA HORN HORN SWITCH REAR STORAGE COMPARTMENT SWITCHES (2010 MODELS) REAR STORAGE COMPARTMENT SWITCHES (2011 MODELS) FRONT STORAGE COMPARTMENT LIGHT HOOD ACTUATOR_ PBS SWITCH (HOOD ACTUATOR FUNCTION) _ FRONT CASE SWITCH (FCS)\n474 475 475 475 475 475 476 476 476 476 479 481 481 481 483 493 493 493 494 494 495 495 495 495 495 502 505 506 508 508 509 511 512 513 517 517 517 519 520 522 525 527 531 532 534 536 536 537 537 538 538 539\nViI",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00012",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 12,
+      "text": "TABLE OF CONTENTS\n05 ELECTRICAL SYSTEM (cont'd) 07 LIGHTS, GAUGE AND ACCESSORIES (cont'd) PROCEDURES (cont'd) CRUISE CONTROL SWITCH, CENTRAL PANEL SWITCHES 08 G ELECTRONIC SHIFT SYSTEM (SES) GENERAL SYSTEM DESCRIPTION TROUBLESHOOTING TROUBLESHOOTING GUIDELINES TROUBLESHOOTING WITH B.U.D,S. PROCEDURES GEAR SHIFTING SWITCHES REVERSE BUTTON TRANSMISSION CONTROL MODULE (TCM)\n540 541 543 543 543 544 545 545 547 547 547 548\n06 DRIVE SYSTEM 01 = DRIVE BELT AND REAR WHEEL  GENERAL PROCEDURES_ DRIVE BELT REAR WHEEL_ REAR SPROCKET FRONT SPROCKET (WITHOUT FLYWHEEL) FRONT SPROCKET (WITH FLYWHEEL) WHEEL HUB REAR TIRE REAR WHEEL TENSIONER _\n551 553 553 553 558 561 562 563 565 566 567\n07 CHASSIS 01 VEHICLE STABILITY SYSTEM (VSS) GENERAL SYSTEM DESCRIPTION (FEATURES)_ SYSTEM DESCRIPTION (COMPONENTS)_ TROUBLESHOOTING TROUBLESHOOTING TIPS PROCEDURES YAW RATE SENSOR (YRS) PILLION RIDER (PASSENGER) SWITCH (PRS) WHEEL SPEED SENSOR (VSS) _ VEHICLE CONTROL MODULE (VCM) 02 5 STEERING (DPS) AND WHEELS_ GENERAL SYSTEM DESCRIPTION (FEATURES). SYSTEM DESCRIPTION (COMPONENTS) . SENSOR RESET ADJUSTMENT STEERING ALIGNMENT SAS RESET TORQUE SENSOR RESET TROUBLESHOOTING DPS STRATEGY ACCORDING TO FAULTS FAULT CODE CO051 AFTER DPS REPLACEMENT OR SAS RESET PROCEDURES_ FRONT WHEELS.\n569 569 569 570 574 574 574 574 576 579 580 587 589 589 589 590 591 591 595 596 596 596 596 597 597\nViII",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00014",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 14,
+      "text": "TABLE OF CONTENTS\n07 CHASSIS (cont'd) 05 T BRAKES GENERAL FAULT CODES ADJUSTMENT PARKING BRAKE CABLE ADJUSTMENT MAINTENANCE BRAKE FLUID INSPECTION BRAKE SYSTEM PRESSURE VALIDATION TROUBLESHOOTING TROUBLESHOOTING GUIDELINES (PARKING BRAKE) _ PROCEDURES CALIPER BRAKE PAD BRAKE DISC ENCODER WHEEL BRAKE PEDAL BRAKE FLUID RESERVOIR DUAL MASTER CYLINDER MASTER CYLINDER ROD PARKING BRAKE FRONT PULLEY PARKING BRAKE REAR PULLEY PARKING BRAKE CABLE PARKING BRAKE MOTOR PARKING BRAKE MODULE (WPM) PARKING BRAKE SWITCH (PBS) PARKING BRAKE LIGHT SWITCH (HBS) BRAKE LIGHT SWITCH (BLS) LOW PRESSURE SWITCH (LPS) 06 BODY GENERAL VEHICLE CARE TROUBLESHOOTING TROUBLESHOOTING GUIDELINES (WINDSHIELD) PROCEDURES DECALS _ MIRRORS SERVICE COVERS FRONT FASCIA MIDDLE SIDE PANELS TOP SIDE PANELS _ REAR SIDE PANELS GLOVE BOX CENTRAL PANEL BOTTOM FRONT SIDE PANELS . BOTTOM REAR SIDE PANELS ACOUSTIC PANELS. FRONT CARGO MODULE FRONT STORAGE COMPARTMENT LATCH CONSOLE MODULE REAR CARGO MODULE WINDSHIELD WINDSHIELD SUPPORT. WINDSHIELD MOTOR\n665 668 668 668 668 669 669 677 677 678 678 678 678 681 683 685 686 688 688 689 690 692 694 695 696 697 698 699 700 703 715 715 715 715 715 715 716 716 716 717 718 719 720 721 722 722 723 723 725 726 728 730 732 732",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00015",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 15,
+      "text": "TABLE OF CONTENTS\n07 CHASSIS (cont'd) 06 BODY (cont'd) PROCEDURES (cont'd) WINDSHIELD MODULE (WPM) 07 ~ FRAME GENERAL PROCEDURES_ LATERAL SUPPORTS FRAME.\n736 739 740 740 740 742\n08 TECHNICAL SPECIFICATIONS 01 5 SPYDER RT (SMS/SES)\n745\n09 WIRING DIAGRAM 01 WIRING DIAGRAM INFORMATION GENERAL WIRING DIAGRAM LOCATION WIRING DIAGRAM CODES_ TROUBLESHOOTING DIAGNOSTIC TIPS\n753 753 753 753 754 754\nXl",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00041",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 41,
+      "text": "Section 02 ENGINE Subsection 01 (ENGINE REMOVAL AND INSTALLATION)\nENGINE REMOVAL AND INSTALLATION SERVICE TOOLS Description Part Number Page BLIND HOLE BEARING PULLER SET 529 036 117 25 ENGINE LIFTING TOOL 529 036 181 21 23-24\nNEW 48 N*m (35 Ibf ft)\nNEW 48 Nm (35 Ibfeft) 24 N-m (17 Ibfeft)\n24 Nem (17 Ibf-ft)\nINEW 48 Nem (35 Ibf ft)\n10 Nem (89 Ibf-in) 30 Nm (22 Ibf-ft)\n48 Nem (35 Ibf-ft) INEW \n48 N-m (35 Ibfeft) NEW\nNEW 48 Nem (35 Ibfeft)\n48 Nem (35 Ibfeft) NEW\nNEW Component must be replaced when removed. 0mr2010-006-001_b\nrmr2011-055\n15",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00048",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 48,
+      "text": "Section 02 ENGINE Subsection 01 (ENGINE REMOVAL AND INSTALLATION)\nA\nB\nrmr2008-008-026 ALIGNMENT PIN HOMEMADE TOOL A. Approximately 400 mm (16in) B. 19mm (3/4in)\n5mr2010 006-029 Left front engine bolts\n5. Remove the rear upper engine bolt:\nrmr2008 008-025 TYPICAL 7 Engine mounts shield 2. Alignment pin\nLean engine against alignment pin. Install all mounting bolts and mounting nuts. Torque   mounting bolts and mounting nuts to 48 Nem (35 Ibfeft). Remove alignment pin: Install all other removed parts. Final Assembly Make sure coolant and oil drain plugs are rein- stalled and tight: Fill cooling system: Refer to COOLING SYSTEM subsection. Fill engine with the recommended oil and re- quired quantity Refer to LUBRICATION SYSTEM subsection, Reconnect battery;\n[mr2010-006-032\nRear upper engine bolt\n6. Remove the rear engine support on the RH side of vehicle 7. Lift engine slowly and remove it from vehicle Engine Installation The installation is the reverse of the removal pro cedure However; pay attention to the following: NOTE: Prior to install engine, inspect condition of engine mounts Position engine in chassis. Install the engine mounts shield. Install an alignment pin (homemade tool) through engine supports and chassis to align the engine.\nWARNING\nConnect RED (+) cable then BLACK (-) cable. Always connect RED (+) cable in first.\nStart engine and let it reach its operating temper- ature_ Stop engine and check coolant and oil levels. Re- fill as necessary:\n22\nrmr2011-055",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00059",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 59,
+      "text": "Section 02 ENGINE Subsection 03 (EXHAUST SYSTEM)\nEXHAUST SYSTEM SERVICE TOOLS Description SPRING INSTALLER/REMOVER\nPart Number 529 035 983\nPage 37 40\nSERVICE PRODUCTS Description LOCTITE 243 (BLUE)\nPart Number 293 800 060\nPage 38\nrmr2011-057\n33",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00071",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 71,
+      "text": "Section 02 ENGINE Subsection 04 (LUBRICATION SYSTEM)\nLUBRICATION SYSTEM SERVICE TOOLS Description Part Number ADAPTER HOSE 529 035 652 ECM ADAPTER TOOL 529 036 166 FLUKE 115 MULTIMETER 529 035 868 OETIKER PLIERS_ 295 000 070 PRESSURE GAUGE 529 035 709\nPage 53 55 54 57-59 53\nSERVICE PRODUCTS Description LOCTITE 243 (BLUE) LOCTITE 515 LOCTITE 648 (GREEN) LOCTITE CHISEL (GASKET REMOVER) PULLEY FLANGE CLEANER SUPER LUBE GREASE XPS SYNTHETIC BLEND OIL (SUMMER GRADE)\nPart Number 293 800 060 413 702 700 413 711 400 413 708 500 413 711 809 293 550 030 293 600 121\nPage 55, 61 64 67_ 69 64 57 60-61 68 50\nrmr2011-058\n45",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00097",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 97,
+      "text": "Section 02 ENGINE Subsection 05 (COOLING SYSTEM)\nCOOLING SYSTEM SERVICE TOOLS Description HANDLE LARGE HOSE PINCHER OETIKER PLIERS_ OIL SEAL PUSHER SEAL PUSHER SUCTION PUMP TEST CAP VACUUMPRESSURE PUMP\nPart Number 420 877 650 529 032 500 295 000 070 529 035 757 529 035 766 529 035 880 529 035 991 529 021 800\nPage 84 81 79-81 84 84 81 76 76\nSERVICE PRODUCTS Description BRP PREMIXED COOLANT DOW CORNING 111 LOCTITE 243 (BLUE)\nPart Number 219 700 362 413 707 000 293 800 060\nPage 75 84 82\ntmr2011-059\n71",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00113",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 113,
+      "text": "Section 02 ENGINE Subsection 06 (MAGNETO AND STARTER)\nMAGNETO AND STARTER SERVICE TOOLS Description Part Number FLUKE 115 MULTIMETER 529 035 868 MAGNETO PULLER 529 036 097 PULLERILOCKING TOOL 529 036 098\nPage 91-92 94 94\nSERVICE PRODUCTS Description DIELECTRIC GREASE DOW CORNING 111 DREI BOND SEALING COMPOUND LOCTITE 243 (BLUE) LOCTITE 648 (GREEN) PETAMO GREASE GHY 133N PULLEY FLANGE CLEANER\nPart Number 293 550 004 413 707 000 420 297 906 293 800 060 413 711 400 420 899 271 413 711 809\nPage 99 91 99 90, 94 91 93 95-96 97, 99 95\nrmr2011-060\n87",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00148",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 148,
+      "text": "Section 02 ENGINE Subsection 07 (CYLINDER HEAD AND CYLINDER)\nVALVE SPRING FREE LENGTH INNER VALVE SPRING NEW 39.24mm (1.5449in) SERVICE LIMIT 38.00mm (1.4961 in) OUTER VALVE SPRING NEW 41.97 mm (1.6524in) SERVICE LIMIT 40.50 mm (1.5945 in)\nAfter springs are installed, ensure it is properly locked by tapping on valve stem end with a soft hammer so that valve opens and closes a few times.\nVALVE Valve Removal Remove VALVE SPRING; see procedure in this subsection Push the valve stem, then pull intake and exhaust valves out of cylinder head.\nValve Spring Installation The installation is the reverse of the removal pro- cedure_ However; pay attention to the following: Colored area of the valve springs must be placed on top.\n2\nTIZO08-014-042_a\nIntake valves 38mm (1.5in) 2, Exhaust valves 31 mm (1.2 in)\nValve Stem Seal Removal Remove valve stem seal and discard it. REQUIRED TOOL SNAP-ON PLIERS (PIN YA 8230)\nvmr2o08-016-031_b Colored area of the valve spring\nTo ease installation of cotters apply some oil or grease on them, so that they remain in place while releasing the spring: NOTE: Valve cotters must be properly engaged in valve stem grooves: NOTICE Improperly locked valve springs will cause engine damage.\nvmr2o0s-043-022\nRemove valve spring shim:\nvmr2008-016-032 1 Valve cotters\n122\ntmr2011-061",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00159",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 159,
+      "text": "Section 02 ENGINE Subsection 08 (CRANKCASE AND CRANKSHAFT)\nCRANKCASE AND CRANKSHAFT SERVICE TOOLS Description Part Number BALANCE SHAFT PLAIN BEARING REMJINST 529 036 094 BLIND HOLE BEARING PULLER SET 529 036 117 CRANKSHAFT PLAIN BEARING TOOL 529 036 093 PULLERILOCKING TOOL 529 036 098\nPage 148 147 148 136-137, 152\nSERVICE PRODUCTS Description LOCTITE 243 (BLUE) LOCTITE 5910 PETAMO GREASE GHY 133N\nPart Number 293 800 060 293 800 081 420 899 271\nPage 147 149 149\nrmr2011-062\n133",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00175",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 175,
+      "text": "Section 02 ENGINE Subsection 08 (CRANKCASE AND CRANKSHAFT)\nNOTICE Unless otherwise instructed_ never use hammer to install plain  bearings: Use press only: Install plain bearings with the same tools as per removal Fit the plain bearings with PETAMO GREASE GHY 133N (PIN 420 899 271). Use O-ring to hold the plain bearings in place dur- ing installation Place suitable support sleeve underneath the proper bearing seat before installing plain bear- ings. NOTICE The partition of the plain bearings must be positioned in the same direction as marked on crankcase halves during removal.\nCarefully press-in the plain bearings in the same direction as during disassembly: Position plain bearings as illustrated: Balance shaft plain bearing 1.5mm (.059in) be- low crankcase reference surface. Crankshaft plain bearing 2mm (.079in) below crankcase reference surface_\nB\nfmr2011-013-007_a PLAIN BEARINGS POSITIONING 1 . Crankcase reference surface A_ 1.5mm (.059in) B 2 mm (.079in)\n2 +\nL1\n3\nNOTE: Remove O-ring before completely press-in plain bearings. Make sure not to damage the sealing surfaces of the crankcase halves. Crankcase Assembly The assembly of crankcase is essentially the re- verse of removal procedure  However; pay atten- tion to the following details. Install a new crankcase gasket Coat the plain bearings with PETAMO GREASE GHY 133N (PIN 420 899 271) before mounting crankshaft and balance shaft: NOTE: Correctly reinstall crankshaft (refer to CRANKSHAFT). For reinstallation of gearbox and oil seals, refer to GEARBOX subsection. Apply a seam of LOCTITE 5910 (PIN 293 800 081) on the oil strainer to fit into crankcase.\nrmr2008-015-057 TYPICAL 1 Partition of crankshaft plain bearings 2 Partition of balance shaft plain bearings 3 Marks\nMark   position of oil orifice on crankcase half (magneto side) and on plain   bearing installer: Align mark on plain bearing installer with mark on crankcase half.\n2\nrmr2o08-015-058_ 7, Oil orifice position marked on crankcase 2. Oil orifice position marked on plain bearing installer\nNOTICE Wrong oil orifice position will stop oil supply to plain bearings and will cause en- gine damage.\nrmr2011-062\n149",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00183",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 183,
+      "text": "Section 02 ENGINE Subsection 09 (CLUTCH (SMS))\nCLUTCH (SM5) SERVICE TOOLS Description BEARING PUSHERIREMOVER BEARING PUSHER BLIND HOLE BEARING PULLER SET. CLUTCH ASSEMBLY HOLDER ECM ADAPTER TOOL FLUKE 115 MULTIMETER VACUUMIPRESSURE PUMP\nPart Number 529 036 095 529 036 096 529 036 117 529 035 618 529 036 166 529 035 868 529 021 800\nPage 186 186 185 187 173 172-173 165-166, 169, 173\nSERVICE PRODUCTS Description BRAKE FLUID LOCTITE 243 (BLUE) LOCTITE 648 (GREEN) PETAMO GREASE GHY 133N PULLEY FLANGE CLEANER\nPart Number 293 600 131 293 800 060 413 711 400 420 899 271 413 711 809\nPage 163 176, 180 189, 192 187-188 185\n157\nrmr2011-063",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00187",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 187,
+      "text": "Section 02 ENGINE Subsection 09 (CLUTCH (SMS))\nClutch with 1 spring disc\nEngine oil\nClutch with 2 spring discs\nEngine OqO oil\n0 30 N-m (22 Ibf-ft) Loctite 648\nEngine oil\nEngine oil\n30 Nm (22 Ibfeft)\nLoctite 648 QOo\nImr20i1.014-101_a\nrmr2011-063\n161\n8\nOoo",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00198",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 198,
+      "text": "Section 02 ENGINE Subsection 09 (CLUTCH (SMS))\nPfuto\n\"ue\n1 \nBAT\nrmr2008 016-081_a Activate here\nImi2008-054-003 CSV INPUT VOLTAGE TEST\nThis will validate the clutch solenoid mechanical and electrical operation. If the solenoid valve works, check clutch compo- nents  If the solenoid valve does not work, proceed with a voltage test: CSV Input Voltage Test Remove the RH upper side panel, refer to the BODY subsection. Disconnect the clutch solenoid valve connector; Turn ignition switch to ON:\nIf voltage is out of specification: Check fuse F12_ Carry out a CSV CIRCUIT CONTINUITY TEST If voltage is correct: Carry out a CSV RESISTANCE TEST CSV Resistance Test Disconnect clutch solenoid valve connector: Set the FLUKE 115 MULTIMETER (PIN 529 035 868) to n Measure the clutch solenoid valve resistance as follows.\nCSV RESISTANCE TEST RESISTANCE TEST PROBES 209C (68PF) Solenoid pins 1 and 2 23 + 1,.2 n\n2\nFmro03-016-084_0\n1 Clutch solenoid valve connector 2. Clutch solenoid valve\nSet the FLUKE 115 MULTIMETER (PIN 529 035 868) to Vdc setting: CSV INPUT VOLTAGE TEST TEST PROBES VOLTAGE Clutch solenoid valve connector Battery Battery ground Pin 2 voltage\nrmr2008-054-002_\nIf resistance is out of specification: Replace the clutch solenoid valve If resistance is good: Carry out a CSV CIRCUIT CONTINUITY TEST\n172\nrmr2011-063",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00212",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 212,
+      "text": "Section 02 ENGINE Subsection 09 (CLUTCH (SMS))\nCLUTCH HOUSING PLAIN BEARING BORE DIAMETER TOLERANCE GROUP 32.921 mm to 32.930mm (1.2961 in to 1.2965in) Red 32.930mm to 32.940mm (1.2965in to 1.2969in) Blue 32.940mm to 32.951 mm (1.2969in to 1.2973in) Yellow\nNOTICE Unless otherwise instructed, never use a hammer to install plain bearings. Plain bearings should only be installed using a press: Heat clutch housing up to 1008C (212'F) before installing plain bearings. Install plain bearings using the appropriate plain bearing installer: PLAIN BEARING SERVICE TOOL BEARING Crankshaft support bearing PUSHERIREMOVER (PIN 529 036 095)\n00/2008-016-027\nPlain Bearing Installation Crankshaft support plain bearings are available in 3 tolerance groups (red, blue and yellow). The proper tolerance group is marked with paint on the clutch housing:\n2\nrmr2008-016 028_8 Clutch housing 2 Paint marking of tolerance group\n529036095\nIf paint marking is not visible anymore, measure inside diameter of clutch housing bore where plain bearings are inserted.\nW\nrmr2008-016-071 PLAIN BEARING INSTALLATION BEARING\nCRANKSHAFT SUPPORT\nPLAIN BEARING Balance shaft support bearing\nSERVICE TOOL BEARING PUSHER (PIN 529 036 096)\n3mr2008-016 029 MEASURE CLUTCH HOUSING BORE DIAMETER Use the following table to find proper tolerance group of plain bearing:\n186\nrmr2011-063",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00213",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 213,
+      "text": "Section 02 ENGINE Subsection 09 (CLUTCH (SMS))\nClutch Housing Installation For installation, reverse the removal procedure_ However; pay attention to the following: Install a NEW clutch housing gasket and NEW sealing washers. Lubricate   plain bearings with PETAMO GREASE GHY 133N (PIN 420 899 271), before  installing clutch housing: Tighten clutch housing screws to specification as per the following sequence. CLUTCH HOUSING SCREWS TORQUE M8 SCREWS (4) 19 Nem (168 Ibfein) M6 SCREWS (11) 11 Nem (97 Ibfein)\n529036095\nWATER PUMP HOUSING SCREWS TORQUE M6 SCREWS (4) 11 Nem (97 Ibfein)\n0mr2008-016-072 PLAIN BEARING INSTALLATION BEARING\nBALANCE SHAFT SUPPORT\nFit the plain bearings with PETAMO GREASE GHY 133N (PIN 420 899 271) Support the clutch housing with a suitable support under the bearing seat: Use an O-ring to hold the plain bearings together during installation: Then carefully press-in the plain bearings. NOTE: Remove O-ring just before plain bearings are completely pressed in. NOTICE The plain bearing segments must be positioned as marked during removal:\n113\n11a\n172\nn6\nng n0 118\nrmr2011-014-002 TIGHTENING SEQUENCE (19 SCREWS) Reinstall remaining parts, refer to the appropriate instructions.\nCLUTCH HUB Clutch Hub Removal Remove the following items, see procedures in this subsection: Clutch cover Clutch plates: Lock crankshaft in TDC position, refer to CRANKCASE AND CRANKSHAFT Lock clutch hub_ REQUIRED TOOL CLUTCH ASSEMBLY HOLDER (PIN 529 035 618)\n2\n3\n1mr2008-016-032_a 7 Partition of crankshaft support plain bearing 2 Partition of balance shaft support plain bearing 3 Clutch housing\n187\ntmr2011-063",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00221",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 221,
+      "text": "Section 02 ENGINE Subsection 10 (CLUTCH (SES))\nCLUTCH (SES) SERVICE TOOLS Description BEARING PUSHERIREMOVER BEARING PUSHER BLIND HOLE BEARING PULLER SET CLUTCH ASSEMBLY HOLDER CLUTCH PACK COMPRESSION TOOL\nPart Number 529 036 095 529 036 096 529 036 117 529 036 133 529 036 144\nPage 211 211 210 212 207\nSERVICE PRODUCTS Description LOCTITE 243 (BLUE) LOCTITE 648 (GREEN) PETAMO GREASE GHY 133N PULLEY FLANGE CLEANER\nPart Number 293 800 060 413 711 400 420 899 271 413 711 809\nPage 201 213 220 211 213 209\nrmr2011-064\n195",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00249",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 249,
+      "text": "Section 02 ENGINE Subsection 11 (HYDRAULIC CONTROL MODULE (SES))\nHYDRAULIC CONTROL MODULE (SES) SERVICE TOOLS Description Part Number Page FLUKE 115 MULTIMETER 529 035 868 234 OIL PRESSURE GAUGE 529 036 142 233\nSERVICE PRODUCTS Description LOCTITE 243 (BLUE)\nPart Number 293 800 060\nPage 236-237\nrmr2011-065\n223",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00275",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 275,
+      "text": "Section 02 ENGINE Subsection 12 (GEARBOX)\nGEARBOX SERVICE TOOLS Description CRANKCASE SEAL PUSHER ECM ADAPTER TOOL_ FLUKE 115 MULTIMETER HANDLE MAIN SHAFT PROTECTOR _ MAIN SHAFT SEAL INSTALLER MAIN SHAFT SEAL PUSHER OIL SEAL INSTALLER PROTECTION SLEEVE\nPart Number 529 036 092 529 036 166 529 035 868 420 877 650 529 036 123 529 036 088 529 036 124 529 036 070 529 036 071\nPage 257 254 258 256-257 256, 268 256 257 256-257 256-257\nSERVICE TOOLS L OTHER SUPPLIER Description SNAP-ON SNAP RING PLIERS\nPart Number SRP3\nPage 263\nSERVICE PRODUCTS Description DOW CORNING 111\nPart Number 413 707 000\nPage 256\n249\nrmr2011-066",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00301",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 301,
+      "text": "Section 03 ELECTRONIC MANAGEMENT SYSTEMS Subsection 03 (COMMUNICATION TOOLS AND B.UD.S:)\nCOMMUNICATION TOOLS AND B.UD.S. SERVICE TOOLS Description Part Number MPI-2 DIAGNOSTIC CABLE 710 000 851 MPI-2 INTERFACE CARD 529 036 018\nPage 276 277\nSERVICE TOOLS 1 OTHER SUPPLIER Description MALE-FEMALE EXTENSION SERIAL CABLE\nPart Number DB9\nPage 277\nGENERAL Refer to PROCEDURES in this subsection for in- structions on using the communication tools. If communication problems occur; refer to TROU- BLESHOOTING in this subsection.\nPrerequisite for CAN Communication: 1. MPI-2 connected to the vehicle communication connector: 2. Ignition key turned ON. 3 B.U.D.S. started and logged. COMMUNICATION PROBLEM (CAN) STATUS WHAT TO DO\nTROUBLESHOOTING\nDIAGNOSTIC TIPS MPI-2 Connection Troubleshooting The MPI-2 includes 2 status lights to indicate the connection condition: USB and CAN: Both lights must be GREEN for the MPI-2 to function prop- erly: Otherwise , refer to the following charts.\nCheck connection between MPI-2 and diagnostic cable connector: Check connection between diagnostic cable connector and vehicle communication connector:\nLight is OFF\nLight is RED\nCheck CAN wires/connectors on vehicle.\nUSB\nCommunication Problems when Using B.U.D.S Missing Module Ensure the  appropriate number of modules is shown at the bottom RH side of B.U.D.S. screen_ MODEL NUMBER OF MODULES\nOrp\nDa\nCAN\nvdd2006-001.151_b\n6 (ECM; VCM, DPS, WPM, LCD and multifunction gauge)\nPrerequisite for USB Communication: PC Computer turned ON MPI-2 connected to PC computer: COMMUNICATION PROBLEM (USB} STATUS WHAT TO DO\nSMS\nSES\n(ECM; VCM, DPS, TCM;\nWPM, LCD and multifunction gauge)\nCheck USB connection between MPI-2 and PC computer: Check USB operation on PC computer (hardware or Windows drivers).\nLight is OFF\nrmr2011-069\n275",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00304",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 304,
+      "text": "Section 03 ELECTRONIC MANAGEMENT SYSTEMS Subsection 03 (COMMUNICATION TOOLS AND B.U.D.S.)\nReading the Electronic Control Units Using B.U.D.S. IMPORTANT: Ensure all connections have been made before starting BU.D.S_ to allow proper operation: Refer to  CONNECTING THE PC TO THE VEHICLEin this subsection; 1 Turn ignition key to ON. 2. Start B.U.D,S. and logon: NOTE: B.U.D.S. will automatically choose the ap- propriate MPI 2 protocol. 3. Ensure the appropriate number of modules is shown in the status bar: MODEL NUMBER OF MODULES 6 SMS (ECM, VCM, DPS, WPM, LCD ad multifunction gauge)\n[ROADSTERIP2.326.0_A8C173456709101 20090031_1j1550 mpam D.U.D S . [Modlllod] 6 120 Edle jcdk Bp\nRead Data\nWrite Data\natamng\nOpen\n3 \u20ac\nVehicle\nSalline}\nMonltoring\nActivation\nFouts\nrnr2010-020-008 Indicate setting or data modified; Write Data to save\nClick the Write Data button.\nEle Yiew MPIe Module Iools Help\nRead Data\nWrite Data\nSES\n(ECM, VCM, DPS, TCM,\nWPM, LCD and multifunction gauge)\nvmr2006-012-100_ben\nNOTE: A message box will confirm a successful operation. Disconnect the MPI connections and store the communication connector in its protective cap\nS0K 0\n0rr201/-020-002 3\nTYPICAL CONNECTION SUCCESSFUL 7, Number of modules\nIf the number is less than indicated in table above_ refer to TROUBLESHOOTING in this subsection_ 4. Read the ECUs by clicking the Read Data but- ton;\nFile yjew MPIQ Module Iools Help\nE\nrmr2010-020-005 1 _ Communication connector stored in protective cap\nNOTICE Failure to secure the diagnostic con- nector in its protective cap may result in corro- sion or other damage to the terminals: Electronic Modules (ECU) Update Whenever B.U.D.S. is first connected to a vehicle, check for an update icon in the B.U.D.S. status bar at the bottom of the Vehicle page_\nRead Data\nWrite Data\nVmr2006-012-100 aen\nWriting Changes in an ECU If the word Modified appears at the end of the vehicle file name at the top of the B.U.D.S page then a change has been made that requires it to be saved to the proper electronic module.\n278\nrmi2011-069",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00305",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 305,
+      "text": "Section 03 ELECTRONIC MANAGEMENT SYSTEMS Subsection 03 (COMMUNICATION TOOLS AND B.U.D.S.)\nEile Yiew MPIQ Module Iools Help ECM Information Cluster Update YCM Replace' DPS ICM Read WPM WVriA Dala\n3\nAr5\nKadona\nrmr2010-020-004_a TYPICAL Greyed out: No update to perform Black:   Update file available\nFut o5t\n[0r2010-020-003 TYPICAL UPDATE ICON\nIfthe update icon is visible, B.U.D.S. indicates that a file is available to update at least one of the elec- tronic modules NOTE: If an update file is available on BOSSWeb but B.U.D.S. being used is not up to date, the up- date icon will not appear: Refer to the service bul- letins to see if there is an update available. Use the Module submenu and check all modules one at a time to see which modulels) can be up- dated.\nFile Yiew MPIQ Module Iools Help ECM Cluster LCD YCM Read Date DPS Ite Data ICM WPM Vehicle Setting\nrmr2011-070-010 TYPICAL MODULE SUBMENU LIST; SES MODEL ILLUSTRATED\n1 If the Update option is greyed out, no update file is available for this module_ 2. If the Update option is black, an update file is available for this module Select the update op- tion and load the proper file\nrmr2011-069\n279",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00313",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 313,
+      "text": "Section 03 ELECTRONIC MANAGEMENT SYSTEMS Subsection 04 (DIAGNOSTIC AND FAULT CODES)\nChoose the fault code state you want to display:\nClear Qccured Faults\nrmr2008-039-009 CLEAR OCCURED FAULTS\nActive Faults Al Faults Active Faults\nClear Occ\nThis will reset the appropriate counter(s) and will also record that the problem has been fixed in the related module memory: Observe the \"Occurred\" faultls). They should all disappear:  Otherwise, follow this procedure. Turn ignition switch OFF Wait 30 seconds. Repeat procedure to clear faults again.\nI2dActive and OccurredFaults Imr2011-021-001_ TYPICAL 1 Drop down list\nKazbod\nActive Fault Codes An active fault code is an indication of a fault that is currently triggered_ The active fault may or may not compromise nor- mal operation of the related system(s). Service action in BU,D.S, should be used to correct the problem that caused the fault code Once the fault condition(s) of the active fault is no longer present; its state will change to \"occurred\" . Occurred Fault Codes An occurred fault code indicates a fault that was active, but no longer is, The occurred fault does not presently affect sys- tem or component operation but is retained as a history of the faults that were detected_ Inactive Fault Codes An inactive fault code represents a fault code that is neither active , nor occurred. It is simply part of a list of all possible faults which may be monitored by the various ECUs, which may become active or occurred if the monitoring system detects an applicable fault: How to Clear Fault Codes Using B.U.D.S: Connect vehicle to the latest applicable B.UD.S; software Refer to COMMUNICATION TOOLS AND B.U.D.S; subsection. Click on the Read Data button: Click on the Faults tab. NOTE: Only the Occurred state faults can be cleared, Click the \"Clear Occurred Faults button.\nFAULT CODE DIAGNOTIC Missing Module If a module is missing, several fault codes will ap- pear; To quickly find which module is missing, perform the following: 1 Connect vehicle to the latest applicable B,UDS, software  Refer to COMMUNICA- TION TOOLS AND B.U.D.S subsection_ 2.Click on the Read Data button; 3. Click Module in the menu bar: 4.Look at the list of modules, 5, If a module is not visible, then it is not commu- nicating through the CAN bus (controller area network)\nEile Yiew MPIQ Module Iools Help ECM Cluster LCD YCM Read Date DPS Ite Data ICM WPM Vehicle Setting\n(mr2011-070-010 TYPICAL MODULE SUBMENU LIST SES MODEL\nNOTE: The TCM listed is only available with the SES model.\nrmr2011-070\n287",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00369",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 369,
+      "text": "Section 04 FUEL SYSTEM Subsection 01 (ELECTRONIC FUEL INJECTION (EFI))\nELECTRONIC FUEL INJECTION (EFI) SERVICE TOOLS Description Part Number Page ECM ADAPTER TOOL_ 529 036 166 351, 353, 359,362, 366, 369, 372, 374, 377, 379, 382-383 FLUKE 115 MULTIMETER 529 035 868 351-352, 359, 363, 365-366, 371\nSERVICE PRODUCTS Description LOCTITE 243 (BLUE) LOCTITE 767 (ANTISEIZE LUBRICANT)\nPart Number 293 800 060 293 800 070\nPage 362, 364, 378 376\nGENERAL\nNOTICE Never use a hose pincher on injec- tion system high pressure hoses. Replace any damaged or deteriorated fuel line_ When the repair or test is completed, ensure that all hoses are connected and secured: Perform the FUEL SYSTEM PRESSURE TEST and the FUEL SYSTEM LEAK TEST as explained in FUEL TANK AND FUEL PUMP subsection. WARNING Always perform the fuel pressure test if any fuel line has been disconnected from a com- ponent, or the fuel component has been re- moved: A pressure test must be carried out before turning the ignition key to ON: The fuel pump is activated each time the ignition key is turned QN\nWARNING\nFuel is flammable and explosive under cer- tain conditions: Ensure work area is well ven- tilated: Do not smoke or allow open flames or sparks in the vicinity\nWARNING\nAlways disconnect battery prior to working on the fuel system: Always disconnect bat- tery exactly in the specified order, BLACK (-) cable first:  It is recommended to disconnect electrical connections prior to disconnecting fuel lines:\nWARNING\nFuel lines remain under pressure at all times. Always proceed with care and use appro- priate safety equipment when working on a pressurized fuel system. Wear safety glasses. Proceed with care when removing/installing pressure test equipment or disconnecting fuel line_connections\nHoses, cables or locking ties removed during a procedure must be reinstalled as per factory stan- dards_\nSYSTEM DESCRIPTION ECM\nTo release fuel pressure prior to removing a hose, disconnect the fuel pump electrical connector and crank the engine. Cover the fuel line connection with an absorbent shop rag before disconnecting it. Slowly discon- nect the fuel hose to minimize spillage\nWARNING Do not allow fuel to spill on hot engine parts and/or on electrical connectors  Wipe off any fuel spillage in the engine compartment:\nsmr200g 027-005\nTYPICAL ECM\nrmr2011-071\n343",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00379",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 379,
+      "text": "Section 04 FUEL SYSTEM Subsection 01 (ELECTRONIC FUEL INJECTION (EFI))\nINJECTOR CIRCUIT\nCYLINDER\nINJECTOR WIRE\nFRONT FUSE BOX PIN\nMEASUREMENT\nFRONT\nVIOLET/BLUE VIOLET/GREEN\nClose to 0 n (continuity)\nA7\nREAR\nE\n529036166 ECM ADAPTER\n4. Remove parts required to access injector con- nector (s) , refer to  INJECTOR CONNECTOR ACCESS: 5. Test the injector ground circuit continuity be- tween the injector and ECM adapter as per fol- lowing table_ INJECTOR ECM \"A\" CYLINDER CONNECTOR CONNECTOR MEASUREMENTI WIRE PIN\nA\n12\nrmr2010-025-001_a FRONT FUSE BOX PIN-OUT\nIf continuity is good, carry out the CONTINUITY TEST OF INJECTOR CONTROL CIRCUIT in this subsection If continuity is faulty, repair wiring or connector be- tween fuse box and injector: Continuity Test of Injector Control Circuit\nFRONT\nBROWN/RED\nJ-1\nClose to 0 n (continuity)\nREAR\nBROWN/BLUE\nK-1\nIf control circuit is faulty, repair wiring or connec- tor;\nInjector Replacement Injector Removal 2011 Models 1 Deactivate main relay 1 (RZ) via B,U.D.S; re- fer to POWER DISTRIBUTION AND GROUNDS subsection.\n2011 Models 1 Deactivate main relay 1 (R7) via B.U.D.S;; re- fer to POWER DISTRIBUTION AND GROUNDS subsection.\nAll Models 2 . Remove the LH service cover to access ECM connectors_ 3. Disconnect connector \"A from the ECM and install it on the ECM ADAPTER TOOL (PIN 529 036 166) _ Refer to ECM CONNECTOR ACCESS in ENGINE CONTROL MODULE (ECM) further in this subsection\nAlI Models 2 Remove fuel rail, Refer to FUEL RAIL in this subsection. 3. Pull injector out f fuel rail.\n00r2011-071\n353",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00384",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 384,
+      "text": "Section 04 FUEL SYSTEM Subsection 01 (ELECTRONIC FUEL INJECTION (EFI))\nPOSSIBLE CAUSES\nACTION\nTPS Wear Test 1 Disconnect the ETA (electric throttle actuator) connector 2. While engine is not running,  manually rotate throttle open and close on the throttle body to ensure smooth operation of the throttle plates. 3. Connect the vehicle to the latest  applicable B.U.D.S. version, refer to COMMUNICATION TOOLS AND B.U.D.S; subsection. 4. Turn ignition key ON to energize electrical sys- tem NOTE: Do not start the engine 5. Ensure engine stop switch is set to RUN. 6, In B.UDS; click on the Read Data button 7. Then click on the Monitoring page tab, then select the ECM tab. 8. Monitor the Throttle Opening indication:\nCheck if connector is disconnected from TPS\nFix.\nTighten and reset Check if sensor is loose Throttle Position Sensor. Inspect sensor for Replace and reset Throttle Position damage or corrosion Sensor. Inspect wiring (voltage test) Repair: If bad wiring, repair: Seoc (resisancedtest) If bad TPS, replace and reset Throttle Sensor. Test sensor operation Replace and reset (wear test) Throttle Position Sensor.\nNOTE: The TPS sensor reset (initialization) is car- ried out using B.U.D.S. TPS Adaptation Fault\nThe following problems can be caused by a TPS adaptation failure fault, or a TPS adaptation can- celed fault: Idle speed is out of range: Engine stops when throttle is released quickly: Engine runs inconsistent in low partial loading or low RPM limp home. POSSIBLE CAUSES ACTION Sensor has been replaced and TPS Reset Throttle Position initialization was not Sensor, performed Throttle body and TPS Reset Throttle Position has been replaced Sensor. ECM has been replaced and TPS initialization was Reset Throttle Position Sensor; not performed Tighten and reset Sensor is loose Throttle Position Sensor: Tighten and reset Throttle bracket is loose Throttle Position Sensor.\nOryga Leneor Stituc 1 2\nPei\nRpif\nB4st\nOsy8en Sanyr Stalus 2\nIbdit Dtl 541\nCrute ME Rert (MPhhp:\nvcls'\nEngine\nTPS (%)\nItAS (%)\n[chhuuvrt\n3\nRrin \nEaefi0\nErale |at\nCor {n1 0\n4\nRoera ^\nOn54tt8 Atai cum \u20ac\n{p Ha\nCuec\nEoK cakcxtes Elrdnt\nrmr2010-022-016_a Step 1: Click on Read Data Step 2: Click on Monitoring page tab Step 3: Select the ECM monitoring page Step 4: Monitor the Throttle Opening indication\nCAUTION Before manually  rotating the throttle plates with electrical power ON, be sure to disconnect the ETA to prevent it from being activated by the ECM: 9. Slowly rotate throttle plates at an even pace and observe the indication in B,U.D.S, The indication in B.U.DS. must change gradually and smoothly as you move the throttle plates. If the indication is erratic, suddenly drops off, or if any discrepancy between the throttle plate move- ment and indication is noticed, it may indicate that the TPS needs to be replaced.\nNOTE: The TPS sensor reset (initialization) is car- ried out using B.U.D.S. software.\n358\nrmr2011-071",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00393",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 393,
+      "text": "Section 04 FUEL SYSTEM Subsection 01 (ELECTRONIC FUEL INJECTION (EFI))\nAMBIENT AIR PRESSURE AND TEMPERATURE SENSOR (AAPTS) AAPTS Location\nMonitoring\nGear Position Engine Temp (N} Neutral 22 'C\nFuel Leve\nVh\nArbient Temp (C):; |24 Atrnospheric Pressure (kPa)   |100\n(Kmth}:\nrmr2008-021-041_p TYPICAL ATMOSPHERIC PRESSURE INDICATION IN B.U.D.S.\n6 Blow some compressed air in the sensor area as you observe the atmospheric pressure indi- cation The reading should change.\n1mr2008-021-040_ TYPICAL AAPTS LOCATION\nThe sensor continuously measures the atmo- spheric air pressure and temperature AAPTS Test Using B.U.D.S: AAPTS Pressure Function Test 1 Connect vehicle to the latest applicable B.U.D.S. software version, refer to COMMU- NICATION TOOLS AND B.U.D.S subsection_ 2. Remove the RH air duct panel. Refer to BODY subsection. 3. Turn ignition key ON. 4,In B.U.DS_ select the following: Read Data button Monitoring page tab Cluster page tab. 5. Read the atmospheric pressure indication. NOTE: The atmospheric pressure indication is vis- ible near the center of the page.\nrmr2OOB-021-082\nTYPICAL\nIf there is no reading or if it does not change, carry out the AAPTS INPUT VOLTAGE TEST If you doubt the AAPTS reading, compare it to an atmospheric pressure gauge (barometer) , or try a new AAPTS. When comparing the readings, values must be within + 3.4kPa (.5 PSI). If the vehicle AAPTS value is out of this range, re- place it; AAPTS Temperature Function Test 1 , With the ignition key ON and the vehicle con- nected to B.U.DS. as in the previous AAPTS PRESSURE FUNCTION TEST, read the ambient air temperature indication.\nrmr2011-071\n367\n8",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00412",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 412,
+      "text": "Section 04 FUEL SYSTEM Subsection 01 (ELECTRONIC FUEL INJECTION (EFI))\n4 Vehicle model number 5 . Total hours.\n2\nF\nGolent\n3 Lba\nKe(\n4 Auaua\nFeltn\n5\nOE?\nAAuact Itnt ~udeia oc And\nJt\nOuto 04 Ye\n0#\nRtaten\nPxodroad\nMeetat\npuougun\n0mi2010-022-026_a DATA TO RETRIEVE 1 Customer (name) 2 Vehicle (VI.N.) 3, Engine (serial number) 4. Model 5. Total hours\nrmr2010-022-031_a ENGINE SERIAL NUMBER LOCATION (CRANKCASE)\n2 Record the following numbers using BOSSWeb Look in Service menu and choose Unit history. 3 . 1 . Customer name 2 V.I.N: (Vehicle Identification Number) 3 . Vehicle model number\nEnter recorded data in ECM as detailed in ENTER- ING THE COLLECTED DATA IN THE ECM: 2nd Collecting Method: Collect the Information from the Vehicle and BOSSWeb 1 Record engine serial number: NOTE: The engine serial number may be obtained from the 2 locations on the engine. From a bar code sticker on top of the rear cylinder head as seen from the RH side of the vehicle, or etched on the engine crankcase as seen from the RH side.\nAdie\n[np: Ilvan bossnea.txfr cctn Panashiong a*1\nBRP\nBOsSWeb R#SitS 1v #\npnnt\nReruko\nWnonciai\ntomernt\nDorumuns\nEtulgling 00q0621386 cua nit cllm uluttuduutte P'r Cijum\nFyravotitt\n\"clothina clalm Campa go claim campalgn Honitoring\nQUR HOLDRACK INTEREST AGAIN\nCim Statua\nUairsiiitoin\nClick Here to Access\ndof Season Gear Sale\nE7 Plvs Malntanamee Cijim\nSchuduled Unit Heintonanse\nmmr2009-118-011 SERVICE, UNIT HISTORY\n4. Enter the recorded data in ECM as detailed in ENTERING THE COLLECTED DATA IN THE ECM: Entering Collected Data in the ECM 1. After the ECM is   replaced, connect  vehicle to the latest applicable B.U.DS. software ver- sion Refer to COMMUNICATION TOOLS AND B.UD.S subsection. 2, In B.U.D.S click the Read Data button to load the information from the faulty ECM:\nrmr2010-022-030\nENGINE SERIAL NUMBER LOCATION (REAR CYLINDER HEAD\n386\nrmr2011-071",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00413",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 413,
+      "text": "Section 04 FUEL SYSTEM Subsection 01 (ELECTRONIC FUEL INJECTION (EFI))\nEile Yiew MPIs Module Iools Help\n0oc4\nRe\nOona n t n\nGer Cutado\n#amtkk?\n#Clsevt3+4*R4t;\nRead Data\nWrite Data\nAci; Poillcn 3 t NAGH Posillicn\n5004\nvmr2006-012-100_aen\nAC Low Position\n6\n3 On the Vehicle page of B.U.D.S. enter cuS- tomer and vehicle data in ECM.\n2\n2 Aea\nE\nCe3\nrmr2010.022-029_a 7  Setting page tab 2 ACC page 3. ACS box\n3 Toxtt\n4 Keleul\n7. Click on History tab. 8. Click on Part Replacement tab_ 9. Click on Add Part in History tab.\nJustrn Fudnta Epn ~veaea Worsl\nOn\nDaer\nMo\nle\nt\nt i\n0u\npaei\n041to0tea\n6a utrr\nLMue}\nA051\nrmr2010-022-026 DATA TO ENTER IN VEHICLE PAGE OF BUDS: 7 , Customer (name) 2 Vehicle (VIN) 3 Engine (serial number) 4 Model\nLM JAm\nKSM Poct\nPatptiT\nT-\nAud\nVadin\nFnalfa\n4,Click on Setting tab_ 5. Click on the ACC tab at the bottom of the SET- TING page. 6. In the Vehicle Configuration field, click in the ACS box to tell the ECM the vehicle is equipped with an air controlled suspension (as applica- ble) _\n4018minhb\nrmr2008-021-021_8\n10. In the Part Type field, choose the ECM and add the ECM serial number\nNdd rart In History\n~Part Type\nEngitie\nEC\n1\n2\nCluster\nSenot Number\nXXX123456\nCencel\n[mr2010-022-027_a ECM selection 2 Enter ECM serial number here\nrmr2011-071\n387",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00415",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 415,
+      "text": "Section 04 FUEL SYSTEM Subsection 02 (FUEL TANK AND FUEL PUMP)\nFUEL TANK AND FUEL PUMP SERVICE TOOLS Description 529 036 166 Part Number 403, Page FLUKE 115 MULTIMETER ECM ADAPTER TOOL_ 529 035 868 404, 409 410 FUEL HOSE ADAPTER_ 295 000 070 529 036 023 OETIKER PLIERS 392, 397,399, 394 PRESSURE GAUGE 529 035 709 394 410 VACUUMPRESSURE PUMP 529 021 800 393, 408, 411 7 8\nrmr2011-072\n389",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00442",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 442,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 01 (POWER DISTRIBUTION AND GROUNDS)\nNO_ DESCRIPTION Direct battery power: FS Hazard switch Brake light switch Direct battery power: F6 Radio Direct battery power: F7 Reverse actuator Trailer module Direct battery power: Horn Load shedding relay F8 Through load shedding relay : Suspension relay Heated grips Fog lights F9 Direct battery power: 12 volt_power outlets F10 |Through main relay 1: Engine control module (ECM) Through main relay 1: F11 Ignition coil Fuel injectors Through main relay 1: Fuel pump motor HzOS (oxygen sensors) heaters F12 Pre-starting relay EVAP purge valve Clutch valve solenoid Camshaft position sensor (CAPS)\nRelay Identification\n10 A\n15 A\n2\n3\n5\n6\n10 A\n20 A\n8\nrmo2010-001-109_b\n10 A\nNO_\nDESCRIPTION R1 Air controlled suspension R2 Pre-starting R3 Main relay 2 R4 Cooling fan R5 Load shedding relay R6 Headlight relay R7 Main relay 1 R8 Headlights high beam/low beam relay\n5 A\n15A\n15 A\nRelays NOTE: The 4-pin relays can be inverted at 1809 at installation: Relay Activation RELAY ACTIVATION CONDITION Main When turning ignition key to ON Main 2 Load shedding When engine speed reaches 800 RPM\nRELAYS Relay Location The relays are located in front fuse box:\nJn\ntmr2011-073-003_ 7 Relay location\n416\nrmr2011-073",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00445",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 445,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 02 (WIRING HARNESS AND CONNECTORS)\nWIRING HARNESS AND CONNECTORS SERVICE TOOLS Description Part Number Page CRIMPING TOOL (HEAVY GAUGE WIRE) 529 035 730 448 CRIMPING TOOL (KOSTAL) 529 035 909 445 ECM ADAPTER TOOL. 529 036 166 442 ECM TERMINAL REMOVER 2.25. 529 036 175 442 ECM TERMINAL REMOVER 3.36_ 529 036 174 442 KOSTAL DIE 529 035 906 445\nSERVICE TOOLS OTHER SUPPLIER Description DELPHI TERMINAL EXTRACTOR TOOL\nPart Number 12094429 AMP- 755430-2\nPage 444 444-446\nrmr2011-074\n419",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00477",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 477,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 03 (IGNITION SYSTEM)\nIGNITION SYSTEM SERVICE TOOLS Description ECM ADAPTER TOOL\nPart Number 529 036 166\nPage 452, 457\nSERVICE PRODUCTS Description HEAT-SINK PASTE P12\nPart Number 420 897 186\nPage 458\nGENERAL\nThe ECM is programmed with data (ignition map- pings) that it uses to provide optimum ignition tim- ing: It receives signals from a variety of sensors that tell it what the engine is doing and what are the operating conditions. It compares all the data it receives with the ignition mappings and uses it to control the ignition spark timing, duration and firing order to ensure optimum engine operation: The crankshaft position sensor (CPS), the man- ifold absolute pressure sensor (MAPS) and the throttle   position sensor  (TPS) are the primary sensors used to control the ignition timing: Engine RPM Limiter The ECM will limit the maximum engine speed by cutting off ignition spark and fuel at a predeter- mined engine RPM: ENGINE SPEED LIMITATION 9500 RPM\nWARNING Torque wrench tightening specifications must be strictly adhered to_ Locking   devices when removed; must be replaced (e.g:: locking tabs, elastic stop nuts, self-locking fasteners, cotter pins, etc:)\nHoses,  cables or locking ties removed during a procedure must be reinstalled as per factory stan- dards_\nWARNING Never check for engine ignition spark from an open coil and/or spark plug a8 spark may cause potential fuel vapors to ignite. Always use an approved spark tester\nSYSTEM DESCRIPTION The engine management system (EMS) controls the ignition system as well as many other engine related functions. It can detect many abnormali- ties including an open or short circuit in the pri- mary winding of the ignition coils as well as its as- sociated circuits The battery supplies power to the primary side of the ignition coils through a relay while the ECM completes the circuit to each coil primary winding by switching it to ground at the appropriate mo- ment; With the primary coil circuits switched ON and OFF by the ECM; the secondary coil circuits sup- ply the high energy to fire the spark plugs as re- quired for proper engine operation: Ignition Timing Ignition timing is not adjustable_\nTROUBLESHOOTING It is good practice to check for fault codes using B,U,D.S, as a first troubleshooting step: Refer to DIAGNOSTIC AND FAULT CODES subsection  Refer to POWER DISTRIBUTION AND GROUNDS for fuses and relays information. Always   refer to the WIRING DIAGRAM when troubleshooting an electrical circuit. NOTE: Install a battery charger on battery termi- nals (under seat) for any tests that involve a pro- longed 'key' ON\" period. If battery voltage gets too low, some accessories are shut off by the ECM and test results can be altered, NOTICE Never force a multimeter probe into an electrical terminal:\ntmrzo1 1-075\n451",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00484",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 484,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 03 (IGNITION SYSTEM)\nTo access front cylinder spark plug, remove RH top side panel and air filter cover; refer to BODY and AIR INTAKE SYSTEM subsections. Disconnect the spark plug cable. Unscrew the spark plug one turn: Clean the spark plug and cylinder head with pres- surized air; then completely remove spark plug: Troubleshooting Fouled Spark Plug Fouling of the spark plug is indicated by irregular running of the engine, decreased engine speed due to misfiring, reduced performance, and in- creased fuel consumption. This is due to a loss of compression: Other possible causes are: pro- longed idling or low-speed riding, a clogged air filter; incorrect fuel, defective ignition system, in- correct spark plug gap, lubricating oil entering the combustion chamber; The plug face of a fouled spark plug has either a wet black deposit or a black carbon fouling: Such coatings form a con- ductive connection between the center electrode and ground. Spark Plug Analysis\nSPARK PLUG GAP\nSPARK PLUG MODEL-YEAR TYPE\nGAP\n0.7mm to 0.8mm (.028in to .031 in)\n2010\nDCPRIE\n0.8mm to 0.9mm (.031in to .035in)\n2011\nDCPRBE\nApply HEAT-SINK PASTE P12 (PIN 420 897 186) on the spark plug threads and gasket to allow proper cooling of spark plug:\nvmr2oo8-024-002_a\n1 _ Heat-sink paste here\nHand screw spark plugs into cylinder head and tighten with a torque wrench and a proper socket;\n2\nAOOEOAA\n2\n3\nTYPICAL 1 Overheated (light grey; white) 2. Normal (light brown, brown) 3. Fouled (black; wet or dry, dark deposits, grey; melted coating)\nThe plug face reveals the condition of the engine, operating condition, method of driving and fuel mixture. For this reason it is advisable to inspect the spark plug at regular intervals, examining the plug face (i.e the part of the plug projecting into the combustion chamber) .\nAOOEOBA\n1 Proper socket 2. Improper socket\nTorque spark plugs to 19 Nem (168 Ibfein).\nSpark Plug Installation Using a feeler gauge to check electrode gap.\n458\nrmr2011-075",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00485",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 485,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 04 (CHARGING SYSTEM)\nCHARGING SYSTEM SERVICE TOOLS Description FLUKE 115 MULTIMETER SPANNER TOOL\nPart Number 529 035 868 529 036 223\nPage 460 464\nSERVICE TOOLS 4 OTHER SUPPLIER\nDescription EXTECH AMMETER\nPart Number model 380941 95260\nPage 461\nNAPA ULTRA PRO BATTERY LOAD TESTER\n464\nSERVICE PRODUCTS Description DIELECTRIC GREASE\nPart Number 293 550 004\nPage 465\nGENERAL\nWARNING Torque wrench tightening specifications must be strictly adhered to_ Locking devices when removed, must be replaced (e.g:: locking tabs, elastic stop nuts, self-locking fasteners, cotter pins, etc )\nHoses, cables or locking ties removed during a procedure must be reinstalled as per factory stan- dards.\nSYSTEM DESCRIPTION The purpose of the charging system is to keep the battery at a full state of charge and to provide the electrical system with the required electrical power for normal vehicle operation. Magneto The magneto is the primary source of electrical power: It transforms a magnetic field into an al- ternating current (AC) The magneto has a 3 phase delta wound stator The magneto is capable of 52 amperes.\nVmrzoo6-017-001 TYPICAL\nVoltage Regulator/Rectifier The voltage regulatorlrectifier receives AC current from the magneto and transforms it into direct cur- rent (DC). The direct current is then supplied to the battery for charging and to the vehicles systems through a 60 A fuse, The   voltage   regulator/rectifier   limits   voltage to prevent damage to electrical components.\nrmr2011-076\n459",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00494",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 494,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 05 (STARTING SYSTEM)\nSTARTING SYSTEM SERVICE TOOLS Description FLUKE 115 MULTIMETER\nPart Number 529 035 868\nPage 474\nGENERAL\nD.E.S.S. recognizes the key Start button pressed in: NOTE: If the transmission was left in reverse or any forward gear when the engine was shut off , the starter will crank the engine when the start button is   pressed. Commanded by the TCM (transmission control module) the HCM (hydraulic control module) will automatically shift the transmission to neutral  during the  engine start when there is sufficient oil pressure to do SO _ Having the parking brake set will not affect engine cranking; the normal brake pedal must be depressed for engine cranking if the transmission is not in neutral:\nSYSTEM DESCRIPTION Starting System Operation SEQUENCE OF OPERATION Start button sends a ground signal to the ECM and pre-starting relay Pre-starting relay provides battery voltage 2 to the starter solenoid coil ECM provides ground to the starter solenoid co\nIf the start button is activated when engine speed is above 1400 RPM, engine cranking will not be allowed_ In other words, if the engine is running, no cranking will take place_ If the start switch is activated while the throttle is opened more than 608, the engine will not be al- lowed to start but the starter will crank the engine (engine drowned mode) _ Engine Cranking Conditions SM5 Model The following conditions must be met to allow en- gine cranking: Transmission in neutral (or in gear with clutch lever depressed) Ignition switch ON Engine stop switch to RUN Mode button pressed in once (safety message acknowledgement) D,E.S.S. recognizes the kev Start button pressed in. SES Model The following conditions must be met to allow en- gine cranking: Ignition switch ON Engine stop switch to RUN Mode button pressed in once (safety message acknowledgement) Transmission in neutral (or in gear  with the brake pedal depressed)\nTROUBLESHOOTING TROUBLESHOOTING TIPS It is good practice to check for fault codes using B.U.D.S.as a first troubleshooting step: Refer to COMMUNICATION TOOLS AND B.UDS sub- section. Refer to POWER DISTRIBUTION AND GROUNDS for fuses and relays information: Always   refer to the WIRING DIAGRAM when troubleshooting an electrical circuit, Install a battery charger on battery terminals (un- der seat) for any tests that involve a prolonged \"key ON\" period: If battery voltage gets too low, test results can be altered, NOTICE Never force a multimeter probe into an electrical terminal:\nSTARTING SYSTEM TROUBLESHOOTING If the gauge or lights do not come on when igni- tion switch is ON, refer to TROUBLESHOOTING in IGNITION SYSTEM subsection If gauge and lights come ON with the ignition switch ON and starter does not engage, start your testing sequence by carrying out STARTER OPERATION TESTin this subsection:\nrmr2011-077\n467",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00502",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 502,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 06 (DIGITALLY ENCODED SECURITY SYSTEM (D.E.S.S.))\nDIGITALLY ENCODED SECURITY SYSTEM (D.ESS:) SERVICE TOOLS Description Part Number MASTER KEY 529 036 106\nPage 476 478\nGENERAL SYSTEM DESCRIPTION The D.E.S.S. system is an electronic anti-start sys- tem that allows engine starting only with a pro- grammed key:\nSYSTEM OPERATION When the ignition switch is turned to the ON posi- tion, a microcircuit inside the key is activated and the antenna on the ignition switch transmits by radio wave a unique binary code to the D.E.S.S module If the D.ES.S. module recognizes the ignition key code, it sends a run signal to the ECM which allows engine cranking to take place If the D.ES.S. module does not recognize the code the cluster will display BAD KEY (it can take up to 40 seconds before the message dis- plays) .\n3\nTROUBLESHOOTING CLUSTER FLASHES AT SHUTDOWN 1. Only one D.E.S.S. key is programmed. Program a minimum of 2 keys. ENGINE STOPS AFTER 2 MINUTES RUNNING 1; DE.S.S module is still in programming mode The 2nd key must be programmed within 2 min- utes: BATTERY COMPLETELY DISCHARGE WITHIN 1 2 WEEKS WHEN VEHICLE IS NOT USED 1 D.E.S.S module is still in programm ing mode; The 2nd key must be programmed within 2 min- utes when programm ing keys.\n2 rmr2o08-018-003_2 1 Ignition switch 2 DES.S. module 3. Ignition key with a ROM chip\nThe ignition key contains a ROM chip that includes a digital type code. The 2 keys that come with the roadster have been programmed at the factory: Up to 4 keys can be programmed on the roadster\n475\nrmr2011-078",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00506",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 506,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 06 (DIGITALLY ENCODED SECURITY SYSTEM (D.E.S.S.))\n9. Quickly disconnect the OLD D.E.S.S. antenna and connect the NEW D.ES.S. antenna to the D.E.S.S. module. NOTE: If too much time is used to switch the an- tenna connectors, the programming may fail and the procedure will have to be repeated from the beginning: 10. Turn NEW ignition switch to ON. 11 Wait until cluster displays NEXT KEY: 12. Turn ignition switch to OFF 13. Remove key: 14. Insert next key to program: 15. Turn ignition switch to ON: 16. Wait until cluster displays NEXT KEY NOTE: If there are at least 2 keys programmed and you do not wish to program more kevs (4 ma- ximum) , leave the last programmed key in the ig nition switch, 17, Wait until cluster displays SUCCESS. 18. Turn ignition switch to OFF 19. Remove key: Complete ignition switch installation_ Start engine and let run for more than 2 minutes. If engine does not stop on its own after 2 minutes, programming mode is complete_\n3 72 4\nrmr2o11-078-001 PARTS REMOVED FOR CLARITY 7 RH front shock absorber 2 Front frame member 3_ DESS, module 4. Connectors\nDESS: Module Replacement 1 Refer to BODY and remove console module and service cover: Disconnect the D.E.S.S. module connectors_ Remove the D.E.S.S: module retaining screws.\nDE.SS. MODULE\n2\nrmr2010-029-002_b PARTS REMOVED FOR CLARITY 1 , DES.S: module 2, Retaining screws\nRemove the D.ES.S; module. For installation, reverse the removal procedures: Tighten retaining screws to 7 Nem (62 Ibfein). NOTICE Do not apply any dielectric grease in the DE.SS module connectors. Program a minimum of 2 kevs into the_new mod- ule_ See PROGRAMMING KEYS WITH A NEW D.ESS: MODULEin this subsection:\nrmr2008-026-004\nThe D.ES.S; module is located inside the front frame member under the upper console\n479\nrmr2011-078\nX1",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00508",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 508,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 07 (LIGHTS, GAUGE AND ACCESSORIES)\nLIGHTS, GAUGE AND ACCESSORIES SERVICE TOOLS Description Part Number Page FLUKE 115 MULTIMETER 529 035 868 499, 502, 506-507, 509, 511 513-515, 518-521_ 523-526 SPANNER TOOL 529 036 223 532\nSERVICE PRODUCTS Description LOCTITE 243 (BLUE)\nPart Number 293 800 060\nPage 534\nGENERAL Refer to WIRING DIAGRAM INFORMATION sub- section for diagnostic tips on troubleshooting electrical problems.\nSYSTEM DESCRIPTION (LIGHTING SYSTEM)\nWARNING\nIt is recommended to always disconnect the battery when replacing any electrical compo- nent_ Always disconnect battery as specified, BLACK (-) cable first: Do not place tools on battery:\n2\n2\nClean threads before applying a threadlocker: Re- fer to SELF-LOCKING FASTENERS and LOCTITE APPLICATION at the beginning of this manual for complete procedures. WARNING Torque wrench tightening specifications must be strictly adhered to. Locking de- vices when removed, must be replaced (e.g. locking tabs, elastic stop nuts,  self-locking fasteners, cotter pins, etcL\n3 07o2010-001-075_a NORTH AMERICAN MODELS 1 , Headlights 2 Fog lights (not shown) 3, Position lights\n3\nrmr2011-079\n481",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00527",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 527,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 07 (LIGHTS; GAUGE AND ACCESSORIES)\n2\n1mr2010-038-022_a Upper retaining screw\nTmr2010-030-002_& MSL2 connector 2 MSL3 connector\n3. Remove middle retaining screws from front fas- cia.\nHEADLIGHT BEAM SELECTOR SWITCH TESTING SWITCH SWITCH CONNECTOR RESULT POSITION Connector MSL2 Close to pin 2 to chassis Low beam battery ground voltage Connector MSL2 High beam pin 2 to chassis Close to or flash high ground beam 0.45 Vdc\nIfthe headlight beam selector switch test is within specification, however the high beam relay volt- age test failed, test the continuity between left multifunction connector MSL2-2 and relay termi- nal A-12 If the test is not to specification perform the LEFT MULTIFUNCTION SWITCH VOLTAGE TESTin this subsection:.\nrin2010-038-023 Middle retaining screw\n4. Remove lower retaining screws and washers from front fascia_\nHeadlight Bulb Replacement 1 Remove the top side panel: 2. Remove the upper retaining screws from front fascia,\n1mr2010-038-024_a 7 _ Lower retaining screw\n5. Remove front fascia. 6. Remove adjustment cable retaining nut:\n500\nrmr2011-079",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00541",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 541,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 07 (LIGHTS GAUGE AND ACCESSORIES)\nMULTIFUNCTION GAUGE (CLUSTER) FUNCTION PIN COLOR ACS position sensor 21 YELLOWNHITE supply Radio and LH multifunction switch 22 LT GREENIPINK (headlights) CAN LO 23 WHITEIBLACK CAN HI 24 WHITEIBEIGE\n2_ Perform testing at multifunction gauge connec- tor as per following illustration and tables.\n12\nMultifunction Gauge Test Using BUDS; Connect vehicle to the latest applicable B.U.D.S. version Refer to COMMUNICATION TOOLS AND B.U.D.S: subsection. In B.UDS: 4 select the Activation and Cluster tabs Click on the WOW Test button:\n24\n13\nTmr2010-030-014_a\nMULTIFUNCTION GAUGE CONNECTOR (PIN-OUT)\n3. Perform the multifunction gauge power tests with the FLUKE 115 MULTIMETER (PIN 529 035 868) set to Vdc and then with a test light; MULTIFUNCTION GAUGE POWER TEST WITH MULTIMETER TEST PROBES IGNITION VOLTAGE POSITION DC Multifunction Chassis Close to connector Any ground battery pin 9 voltage Multifunction Chassis Close to connector ON ground battery pin 8 voltage MULTIFUNCTION GAUGE POWER TEST WITH TEST LIGHT\nGu:\nGuna\ntna\nCuLea\nIGNITION POSITION\nTEST LIGHT\nEek\nK4\nTEST PROBES\nrmr2010-030-013_ ACTIVATION PAGE, CLUSTER TAB WOW Test button\nMultifunction connector pin 9 Multifunction connector pin 8\nChassis ground\nBright light\nAll indications will come and stay ON so that you can verify each indication_ NOTE: The WOW Test only tests the gauge Ana- log displays, LEDs, and LCD: It does not test the actual circuit functions related to each indication. Multifunction Gauge Power Test If the multifunction gauge is inoperative , first check for fault codes with B.U.D.S. record all faults then erase them: Reactivate the electrical system and recheck for faults. If any fault code appears, perform service actions required: Re- fer to COMMUNICATION TOOLS AND B.UD.S; subsection: 1. Remove multifunction gauge.\nChassis ground\nON\nBright light\nIf there is no power at pin 9, check fuse F1 and the related circuit: If there is no power at pin 8, check main relay 2 (R3) and the related circuit: If the power test is within specification, continue with the MULTIFUNCTION GAUGE GROUND TEST\nMultifunction Gauge Ground Test Perform the multifunction gauge  ground tests with the FLUKE 115 MULTIMETER (PIN 529 035 868) set to OHMS and then with a test light:\n514\nrmr2011-079\n91{18'\nAny",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00555",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 555,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 07 (LIGHTS; GAUGE AND ACCESSORIES)\nYSIT 37018  603066 Poz '04 7\nrmr2010-030-043 TESTING VAC AT THE SPEAKER TERMINALS\n[mr2010-030-024 Screws\nSPEAKER INPUT VOLTAGE TEST TEST ONE HALF NO VOLUME PROBES VOLUME Speaker 000 Vac 300 Vac to Terminals 1.3 Vac\n4. Carefully pull back and upward on rear panel to remove from vehicle. 5. Remove the antenna mast (if necessary). 6. Remove 3 screws inside the top rear storage compartment securing the speaker and arm rest assembly.\nIf the AC voltage test is good at the speaker ter- minals, replace the speaker: If the AC voltage reading at the speaker is not within specification, replace the radio. Rear Speaker Removal 1 Open top and both side storage component covers. 2. Remove 2 screws at the top rear of each side storage compartment:\nrmr2010-030-025_\n7 _ Screws\n7. Carefully remove the speaker and arm rest as- sembly. NOTE: If the SPEAKER INPUT VOLTAGE TESTis to be performed, proceed with that test now: If the speaker is to be replaced, continue with this procedure 8. Remove the 3 speaker side cover screws on the outside of the cover:\nrmr2o10-030-023_8 1 Screws\n3. Remove 4 screws on the rear of top storage compartment:\n528\nrmr2011-079",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00570",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 570,
+      "text": "Section 05 ELECTRICAL SYSTEM Subsection 08 (ELECTRONIC SHIFT SYSTEM (SES))\nELECTRONIC SHIFT SYSTEM (SES) SERVICE TOOLS Description Part Number FLUKE 115 MULTIMETER 529 035 868\nPage 548-549\nSERVICE TOOLS 5 OTHER SUPPLIER Description FLUKE RIGID BACK PROBES\nPart Number TP88\nPage 548-549\nGENERAL\n3\nSYSTEM DESCRIPTION The engine features a sequential  electronically controlled mechanical 5-speed gearbox (SES) with a hydraulically-actuated type clutch system: NOTE: The SES is an electronically controlled ver- sion of a sequential manual gearbox:\n2\n3\n0mo2010-001-036_b SE5 SWITCHES 7 Upshift 2. Downshift 3. Reverse\n5\n2\n6\n3\nrmr2011-080-010_a TYPICAL 1 Transmission control module (TCM) 2. Hydraulic control module (HCM) 3. SES switches (upshift, downshift, reverse) 4, Oil tank 5. Solenoid valves 6. Link rod between HCM and shifter\nThe transmission control module (TCM) manages 4 solenoid valves located on the hydraulic control module (HCM) that control and activate the gear shifting process\n2 tri2008-078-003_a TYPICAi HCM 2 Clutch servo 3. Solenoid valves 4, Pressure hose from HCM to clutch servo\nThe SES uses a centrifugal clutch system that en- gages automatically at approximately 2000 RPM as the rider increases engine RPM, and disen- gages when the engine falls below that RPM;\nrmr2011-080\n543",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00578",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 578,
+      "text": "Section 06 DRIVE SYSTEM Subsection 01 (DRIVE BELT AND REAR WHEEL)\nDRIVE BELT AND REAR WHEEL SERVICE TOOLS Description Part Number BELT TENSION METER 529 036 115 BLIND HOLE BEARING PULLER SET. 529 036 117 SOCKET SPANNER 529 036 113\nPage 554 560, 562, 565 560\nSERVICE TOOLS F OTHER SUPPLIER\nDescription SNAP-ON SEAL PULLER\nPart Number YA105\nPage 565\n8X SERVICE PRODUCTS Description Part Number I LOCTITE 243 (BLUE) 293 800 060 Page XPS SYNTHETIC GREASE. 293 550 010 561 560 7 8\nrmr201 /-081\n551",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00584",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 584,
+      "text": "Section 06 DRIVE SYSTEM Subsection 01 (DRIVE BELT AND REAR WHEEL)\nAsk somebody to start engine. Select first gear; Accelerate engine to turn rear wheel. WARNING Keep speed at minimum Vehicle must be properly supported and front wheels blocked:\nCheck drive belt alignment: Stop rear wheel and repeat in reverse_ Stop engine_ If an adjustment is necessary, tighten the appro- priate axle tensioner screw and recheck the align- ment: When alignment is good, check drive belt tension. Refer to DRIVE BELT TENSION VERIFICATION Torque rear axle nut: REAR AXLE NUT TIGHTENING TORQUE 130 Nem (96 Ibfeft)\n[m2010 036-026 TYPICAL 1 Belt guard\nRemove belt tension, refer to DRIVE BELT TEN- SION ADJUSTMENT and completely loosen ten- sioner screws to remove belt from rear sprocket Remove shift lever from shift shaft: Remove LH footrest support from vehicle by un- screwing retaining screws.\nInstall a NEW cotter pin and the both axle caps_ WARNING Always install a NEW cotter pin on rear axle\nDrive Belt Removal NOTE: If drive belt is removed but not replaced, mark the direction of rotation: Drive belt must be reinstalled in the same direction to obtain the ma- ximum drive belt life span: Lift rear of vehicle by the frame until rear wheel is off the ground:\n1mr2010-032-001,_ 1 Footrest support retaining screws:\n1\nrmr2o08-030-009 TYPICAL\nRemove body parts as required to access to the front sprocket: Refer to BODY subsection: Remove belt guard from swing arm:\nImr2010-032-002_ Footrest support retaining screws\nFmr201 [-081\n557",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00589",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 589,
+      "text": "Section 06 DRIVE SYSTEM Subsection 01 (DRIVE BELT AND REAR WHEEL)\nInstall the long side of bearing spacer inside rear sprocket bearing:\n(mr2008-031-027 1 _ Seal\nrmr2008-031-026_ 7 Long side of bearing spacer\nRemove circlip.\nRear Sprocket Installation The installation is the reverse of the removal pro- cedure. However; pay attention to the following: Check the gap between rear sprocket and rear wheel: REAR SPROCKET AND REAR WHEEL GAP 1.6mm (1/16in)\nNOTE: If the gap is   higher; remove the rear sprocket and check the condition of the nave O-ring: Make sure rear sprocket spokes are aligned along with rear wheel spokes.\nrmr2o0g-031-028 1 Circlip\nUsing the BLIND HOLE BEARING PULLER SET (PIN 529 036 117) , remove and discard sprocket bearing:\nFRONT SPROCKET (WITHOUT FLYWHEEL)\n529038117\nRear Sprocket Assembly The assembly is the reverse of the disassembly procedure. However; pay attention to the follow- ing; When installing the sprocket bearing; make sure to insert the bearing very straight to avoid damag- ing sprocket hub and to press the bearing from its outer race\nroi2011-032-004\n562\nrmr2011-081",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00596",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 596,
+      "text": "Section 07 CHASSIS Subsection 01 (VEHICLE STABILITY SYSTEM (VSS))\nVEHICLE STABILITY SYSTEM (VSS) SERVICE TOOLS Description Part Number Page FLUKE 115 MULTIMETER 529 035 868 575, 577-579, 582\nSERVICE TOOLS S OTHER SUPPLIER\nDescription FLUKE RIGID BACK PROBES\nPart Number TP88\nPage 575, 579, 582\nSERVICE PRODUCTS Description BRP HEAVY DUTY CLEANER\nPart Number 293 110 001\nPage 583\nWARNING Torque wrench tightening specifications must be strictly adhered to_ Locking devices must be replaced with new ones when removed (e.g:: locking tabs, elas- tic stop nuts, cotter pins,etc ) \nSUBSYSTEM FUNCTION Prevents the loss of steering control in normal riding SCS conditions as well as in (Stability emergency avoidance maneuvers, Control It applies braking power to the System) appropriate wheel, It may also reduce engine torque as necessary. Prevents the wheels to lock while ABS braking: (Antilock It reduces braking power to the Braking appropriate wheel bv modulating System) brake pressure as necessary. EBD Allows the distribution between (Electronic front and rear brakes to be adjusted Brake according to conditions. Distribution) Optimizes rear wheel traction to TCS help keeping the vehicle on its intended trajectory: (Traction It reduces engine torque as Control necessary. System) It may also apply brake on rear wheel if necessary:\nNOTICE Hoses, cables or locking ties re- moved during the procedure must be rein- stalled as per factory standard:\nGENERAL\nSYSTEM DESCRIPTION (FEATURES) The VSS maintains vehicle control in normal riding conditions as well as in emergency avoidance ma- neuvers. The VSS uses the   following   subsystems to achieve its goals.\nThe VSS coordinates the SCS, ABS, EBD and TCS to work together to allow maximum vehicle con- trol while accelerating, decelerating, turning and braking:\nrmr201 1-082\n569",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00614",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 614,
+      "text": "Section 07 CHASSIS Subsection 02 (STEERING (DPS) AND WHEELS)\nSTEERING (DPS) AND WHEELS SERVICE TOOLS Description Part Number BALL JOINT INSTALLER 529 035 975 BEARING PUSHERIREMOVER 529 036 095 FLUKE 115 MULTIMETER 529 035 868 MAGNET SOCKET 529 036 178 PITMAN ARM JIG 529 036 225 PITMAN ARM LOCKING TOOL 529 036 228 PITMAN ARM PULLER 529 036 227 PITMAN ARM PUSHER 529 036 226\nPage 624 624 613 614, 618, 621 618, 620 591 593 618 620\nSERVICE PRODUCTS CABLE LUBRICANT Description 293 600 041 Part Number LOCTITE 767 (ANTISEIZE LUBRICANT) LOCTITE 243 (BLUE) 293 800 060 XPS SYNTHETIC GREASE_ 293 550 010 293 800 070 1 8\nPage 599-600, 607 614 620 611-612, 617\nrmr2011-083\n587",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00619",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 619,
+      "text": "Section 07 CHASSIS Subsection 02 (STEERING (DPS) AND WHEELS)\n2\n2\n3\nrmr2008-028 002_3 TYPICAL 1 _ Lug nuts 2 M18 elastic stop nuts (as spacers)\nrmr2o08-028-004_a TYPICAL 7 , Driver footrest 2. \"Y pipe 3. Spacer secured by a C-clamp near rear of frare\n8 Using a C-clamp, position a spacer bar at 100 mm (4in) from the front end of frame\n10. Mark alignment bar at its center: Align center mark with an imaginary line through the left and right front axles. NOTE: If your bar is longer than 6 feet; mark the center and 3 feet from center in each direction; 11. Attach the alignment bar to the spacers US- ing the locking pliers or C-clamps. The align- ment bar must be centered on an imaginary line drawn through the front axles with (91 cm (3 ft) in front of the axles and 91 cm (3 ft) be- hind them)_\n2\nA\nrmr2o08-028 003 TYPICAL 7 , Spacer bar secured by a C-clamp 2 Frame front end A. 100 mm (4in)\n2\n3\nNOTE: Ensure spacers are  straight (vertical) to avoid erroneous measurements; Each spacer must be clamped where the frame is flat: Avoid clamping on any bracket, plastic or bolt. 9. Using a C-clamp, secure the other spacer near the rear end of the frame.\n0bs2010-016-024_0 FRAME TOP VIEW 1 Imaginary line between front axles 2 Edge of frame 3. Alignment bar\n12 Ensure alignment bar is parallel with the frame (leftlright) by visually inspecting from the front Adjust bar and clamps as required. 13, Position the  handlebar SO that it is in the straight ahead position by measuring be- tween the extremities of the handlebar and a fixed point at rear:\n592\nrmr2011-083",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00654",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 654,
+      "text": "Section 07 CHASSIS Subsection 03 (FRONT SUSPENSION)\nFRONT SUSPENSION SERVICE TOOLS Description BALL JOINT EXTRACTOR_ BALL JOINT INSTALLER BALL JOINT REMOVER SUPPORT SPRING REMOVER\nPart Number 529 035 827 529 035 975 529 036 121 529 036 007\nPage 633 633, 636 633, 636 630\nSERVICE PRODUCTS Description_ XPS SYNTHETIC GREASE_\nPart Number 293 550 010\nPage 630\n627\nrmr2011-084",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00666",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 666,
+      "text": "Section 07 CHASSIS Subsection 04 (REAR SUSPENSION)\nREAR SUSPENSION SERVICE TOOLS Description BLIND HOLE BEARING PULLER SET_ FLUKE 115 MULTIMETER SPRING REMOVER\nPart Number 529 036 117 529 035 868 529 036 007\nPage 661 646, 651,, 654 657\nSERVICE PRODUCTS Description LOCTITE 243 (BLUE) LOCTITE 592 (PIPE SEALANT) XPS SYNTHETIC GREASE\nPart Number 293 800 060 293 800 018 293 550 010\nPage 662 654 662\ntmr2011-085\n639",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00681",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 681,
+      "text": "Section 07 CHASSIS Subsection 04 (REAR SUSPENSION)\nACS Compressor Installation The installation procedure is the reverse of re- moval procedure , however pay attention to the following: Apply LOCTITE 592 (PIPE SEALANT) (PIN 293 800 018) on check valve and fitting threads. Check the air system for leakage, refer to ACS SYSTEM LEAK TEST\nIf switch does not work to UP and DWN position, check control circuit continuity as follows. ACS SWITCH COMMON CONTROL CIRCUIT TEST PROBES RESISTANCE Multifunction gauge pin-20 Close to 0 n ACS switch pin-6\nACS SWITCH The ACS switch is identified CSS in the wiring di- agram: ACS Switch Access Remove central panel: Refer to BODY subsec- tion.\nACS SWITCH COMMON CONTROL CIRCUIT TEST PROBES RESISTANCE Multifunction gauge pin-20 Close to 0 n ACS switch pin-2\nIf switch does not work to UP position only, check control circuit continuity as follows. ACS SWITCH UP POSITION CONTROL CIRCUIT TEST PROBES RESISTANCE ACS switch pin-5 Close to 825 n Main ground\nIf switch does not work to DWN position only, check control circuit continuity as follows. ACS SWITCH DOWN POSITION CONTROL CIRCUIT TEST PROBES RESISTANCE ACS switch pin-1 Close to 18.2 Kn Main ground\n3\n2\nrrr2010-036-102 1 _ ACS switch 2 . ACS switch connector 3, Central panel\nACS Switch Continuity Test Set the FLUKE 115 MULTIMETER (PIN 529 035 868) to n. Check ACS switch continuity as follows. ACS SWITCH PIN RESISTANCE POSITION Firmly pushed to UP 2 5 Released (FREE) 2 3 Close to 0 n Firmly pushed to DWN 2\nACS Switch Replacement Remove central panel. Refer to BODY subsec- tion. Remove ACS switch from console by pushing re- taining tabs:\nIf switch is defective, replace it with a new one. If switch is correct, carry out the ACS SWITCH CONTROL CIRCUIT TEST\nACS Switch Control Circuit Test Set the FLUKE 115 MULTIMETER (PIN 529 035 868) to n Check ACS switch control circuits as follows.\n3 rmr2010-036-102 7 ACS switch 2 ACS switch connecior 3. Central panel\n2\n654\nrnr2011-085",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00718",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 718,
+      "text": "Section 07 CHASSIS Subsection 05 (BRAKES)\n3\n2\n2\nImr2010-037-115_a 7 Parking brake support 2 Nut securing cable to parking brake support 3. Rear pulley\nrmr2010-037-111_a 1 Front pulley 2. Spacer\nParking Brake Front Pulley Installation Install spacer on front pulley retaining bolt. Install front pulley with the lower pulley stopper positioned toward driver footpeg, refer to illustra- tion.\nrmr2010-037-108_a FRONT PULLEY 1. Parking brake cable\nRemove front pulley retaining nut:\n2\n3\nrmr2010-037-118_8 1 Front pulley 2 . Lower pulley stopper 3. Driver footpeg\nInstall and tighten retaining nut to secure front pul- ley: Connect vehicle to B.U.D.S. Refer to COMMUNI- CATION TOOLS AND B.UD.S: SOFTWARE sub- section. Select Activation page. Select WPM folder: Press Park Brake Sequence button to set pulley at its reference position.\nrmr2010-037.110_a\n1 Front pulley\nCarefully pull front pulley toward the outside then remove spacer:\nrmr2011-086\n691",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00728",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 728,
+      "text": "Section 07 CHASSIS Subsection 05 (BRAKES)\n4. Firmly press brake pedal until you hear a click\" from the LPS switch or until braking pressure reaches 3 500kPa (508 PSI). NOTE: The Ist click will come from the brake light switch Continue to strongly press pedal to hear a 2nd click. This one will come from the low pres- sure switch.\nImr2008-039-011 TYPICAL\nNOTE: Use B.U.D.S. to monitor brake pressure if desired.\n~50\n7000\n3500\nBrake Pressure Sensor(kPa} rmr2008-039-012 MONITORING TAB, VCM MODULE\n5. Turn ignition switch OFF 6. Wait 30 seconds. 7 . Turn ignition switch ON. 8. Validate fault was cleared.\n701\nrmr2011-086",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00730",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 730,
+      "text": "Section 07 CHASSIS Subsection 06 (BODY)\nBODY SERVICE TOOLS Description FLUKE 115 MULTIMETER\nPart Number 529 035 868\nPage 736-737\nSERVICE PRODUCTS Description BRP HEAVY DUTY CLEANER\nPart Number 293 110 001\nPage 715\nrmr2011-087\n703",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00735",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 735,
+      "text": "Section 07 CHASSIS Subsection 06 (BODY)\nCONSOLE MODULE\nAKSOX 16 BKSOX20 M5 X 14 M5X25 EM6 X 10 FIM6 X12 M6 X16 HM6X2O M6X25\n4.5 N-m (40 Ibf-in)\n7.5 N-m (66 Ibf-in)\n4.5 N-m (40 Ibf:in)\n4.5 N-m (40 Ibf-in)\n7.5 Nem (66 Ibf-in)\n4.5 Nem (40 Ibf-in)\nNEW Component must be replaced when removed.\n708\nrmr2011-087\nFront ",
+      "verification": "UNVERIFIED"
+    },
+    {
+      "id": "PG-DOC-SPYDER-SHOP-00753",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 753,
+      "text": "Section 07 CHASSIS Subsection 06 (BODY)\n6. If test fail, adjust front storage compartment latch as follows: 6.1 Loosen latch nuts. 6.2 Adjust latch mechanism accordingly:\n2\n2\nrbg2010-008-008_a 1 Retaining screws of cover hinge 2. Hinge housing wall A Hinge bracket parallel with housing wall\n8. Tighten 2 retaining screws of cover hinge. 9. Carry out the FRONT  STORAGE COMPART MENT SEAL VERIFICATION See procedure in this subsection. Front Storage Compartment Seal Verification NOTICE This test must be performed each time the latch is adjusted in order to avoid water intrusion into storage compartment: 1 . Open front storage compartment cover 2 _ Place a sheet of paper on storage compartment seal; 3. Close front storage compartment cover:\nrbg2010-008-007_a 1 , Latch nuts 2, Latch mechanism\n7 Ensure cover   height fits with front panels height when cover is closed.\nCONSOLE MODULE\n[mi2010-038.032\nCONSOLE MODULE\nConsole Module Removal 1 Lift seat; 2. Open front storage compartment; 3. Remove mirrors . Refer to MIRRORS in this subsection_ 4 Remove both service covers_ Refer to SER- VICE COVERS in this subsection. 5. Remove middle side panels. Refer to MIDDLE SIDE PANELS in this subsection.\nrbg2010.008-010_\n4. Check that cover is properly sealed by pulling on the sheet of paper: 5. Repeat the previous steps for the other side FRONT STORAGE COMPARTMENT SEAL VERIFICATION PASS Sheet not easily removable FAIL Sheet easily removable\n726\nrmr2011-087\n(Patd\nHar|\nOrd",
+      "verification": "UNVERIFIED"
     }
   ]
 }

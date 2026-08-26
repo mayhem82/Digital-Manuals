@@ -1,10 +1,10 @@
 {
   "source_pages_total": 1603,
-  "pages_ingested": 1484,
+  "pages_ingested": 1546,
   "pages_text_verified": 0,
   "pages_visual_verified": 0,
   "procedures": 0,
-  "diagrams": 0,
+  "diagrams": 3,
   "fault_codes": 0,
   "glossary_terms": 27,
   "specifications": 0,
@@ -13,7 +13,7 @@
     "GAP-0001",
     "GAP-0002"
   ],
-  "build_timestamp": "2026-08-26T22:11:34.876Z",
-  "commit": "47c95d9d86def53df26207d01efebef6fd39e715",
+  "build_timestamp": "2026-08-26T23:08:42.624Z",
+  "commit": "7d588a89fc2909c8c574b771dce730c52e6a371a",
   "documents_registered": 10
 }

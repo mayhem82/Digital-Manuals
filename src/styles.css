@@ -269,6 +269,39 @@ th { color: var(--text-dim); font-weight: 600; white-space: nowrap; }
 .manifest-stat .n { font-size: 1.5rem; font-weight: 700; display: block; }
 .manifest-stat .l { color: var(--text-dim); font-size: 0.78rem; }
 
+.diagram-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+.diagram-card img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  cursor: zoom-in;
+  margin-bottom: 8px;
+  background: #fff;
+}
+.diagram-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  cursor: zoom-out;
+}
+.diagram-lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 4px;
+}
+
 @media print {
   .topbar, .sidebar { display: none; }
   body { background: white; color: black; }

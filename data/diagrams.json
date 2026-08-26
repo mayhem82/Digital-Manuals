@@ -1,5 +1,42 @@
 {
   "schema_version": 1,
   "note": "Retained visual material per BUILD.md section 8 — wiring diagrams, exploded views, photographs, connector layouts, etc. Each entry follows the metadata shape specified in BUILD.md (id, document, source_page, compilation_page, type, title, system, applicability, asset, verified). Empty until visual extraction runs.",
-  "visuals": []
+  "visuals": [
+    {
+      "id": "VIS-DOC-SPYDER-SHOP-00098-01",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 98,
+      "type": "exploded-view",
+      "title": "Coolant Temperature Sensor (CTS) location",
+      "system": "Engine / Cooling System",
+      "applicability": [],
+      "asset": "/assets/exploded-views/VIS-DOC-SPYDER-SHOP-00098-01.png",
+      "verified": false
+    },
+    {
+      "id": "VIS-DOC-SPYDER-SHOP-00297-02",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 297,
+      "type": "wiring-diagram",
+      "title": "Engine Management System (ECM) inputs/outputs block diagram (SE5 model)",
+      "system": "Electronic Management System",
+      "applicability": [],
+      "asset": "/assets/wiring/VIS-DOC-SPYDER-SHOP-00297-02.png",
+      "verified": false
+    },
+    {
+      "id": "VIS-DOC-SPYDER-SHOP-00731-03",
+      "document": "DOC-SPYDER-SHOP",
+      "source_page": null,
+      "compilation_page": 731,
+      "type": "exploded-view",
+      "title": "Body Parts Nomenclature (Vehicle Front View)",
+      "system": "Body",
+      "applicability": [],
+      "asset": "/assets/exploded-views/VIS-DOC-SPYDER-SHOP-00731-03.png",
+      "verified": false
+    }
+  ]
 }

@@ -105,7 +105,17 @@ def main() -> int:
             added += 1
         else:
             page = doc[index]
-            has_visual_content = bool(page.get_images(full=True)) or bool(page.get_drawings())
+            # get_images()/get_drawings() list resources, not what's actually
+            # drawn -- this PDF has ~42 tiny repeating watermark-tile images
+            # on nearly every page regardless of content, so a bare
+            # bool(get_images()) is always true. get_image_info() reports
+            # only images actually placed on the page; require a real
+            # minimum size (same threshold as scan_visual_pages.py) so a
+            # watermark tile doesn't count as a diagram.
+            has_visual_content = any(
+                (info["bbox"][2] - info["bbox"][0]) * (info["bbox"][3] - info["bbox"][1]) >= 40000
+                for info in page.get_image_info()
+            ) or bool(page.get_drawings())
             if has_visual_content:
                 reason = "OCR found no reliable text on this page; it has embedded images/drawings, likely a diagram/photo page needing visual retention"
             else:
