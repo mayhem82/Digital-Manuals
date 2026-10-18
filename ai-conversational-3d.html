@@ -114,7 +114,18 @@ box(p,1.25,.16,.25,-.225,y,-3.875,slabColor);
 box(p,1.25,.16,4.06,-.225,y,1.97,slabColor);
 }
 wall(walls,10,2.8,.18,0,y+1.48,-3.92);wall(walls,.18,2.8,8,-4.92,y+1.48,0);wall(walls,.18,2.8,8,4.92,y+1.48,0);
-const front=y===0?front0:front1;wall(front,3.7,2.8,.18,-3.15,y+1.48,3.92);wall(front,3.7,2.8,.18,3.15,y+1.48,3.92);
+const front=y===0?front0:front1;
+wall(front,3.7,2.8,.18,-3.15,y+1.48,3.92);
+wall(front,3.7,2.8,.18,3.15,y+1.48,3.92);
+// The two 3.7m front panels leave a 2.6m central gap.
+// Fill it with continuous wall on the upper level, and proper door jambs and lintel below.
+if(y===0){
+wall(front,.575,2.8,.18,-1.0125,y+1.48,3.92);
+wall(front,.575,2.8,.18,1.0125,y+1.48,3.92);
+wall(front,1.45,.50,.18,0,y+2.63,3.92);
+}else{
+wall(front,2.6,2.8,.18,0,y+1.48,3.92);
+}
 window(front,-3,y+1.7,4.03);window(front,3,y+1.7,4.03);
 window(walls,-2.9,y+1.7,-4.03);window(walls,2.9,y+1.7,-4.03);
 }
