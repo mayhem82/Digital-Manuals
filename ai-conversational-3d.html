@@ -28,7 +28,37 @@
 <section><h2>4. Model inspection checklist</h2><p>Check each item against the reference material. A tick indicates an inspection was performed, not proof that the model is accurate.</p>
 <div id="checks"></div></section>
 <section><h2>5. Recommended conversation protocol</h2><p>Keep the scope of each change narrow. Ask the AI to report what it observed, what it inferred, what it changed, what it could not verify, and what must be checked next. Do not allow an attractive render to substitute for geometric validation.</p><p>When resuming a different conversation, supply the latest model, the original photographs or text specification (or both), and the most recent continuity snapshot. Without those materials, the AI cannot reliably reconstruct earlier model state.</p></section>
-</main><footer>Digital Manuals · AI Conversational 3D Modelling · Standalone educational workflow</footer>
+<section><h2>Interactive Three.js model workspace</h2><p>Rotate, zoom and inspect a live 3D scene. Select a primitive and change its dimensions. This is a functional browser modeller for simple geometry; photograph reconstruction and natural-language model generation require a separate AI processing step.</p>
+<div id="viewer" style="height:360px;position:relative;border:1px solid #475569;border-radius:10px;overflow:hidden;background:#08111f" aria-label="Interactive 3D model viewport"></div>
+<label for="shape">Geometry</label><select id="shape" style="width:100%;padding:12px;background:#0b1220;color:white;border:1px solid #64748b;border-radius:8px"><option value="box">Box</option><option value="cylinder">Cylinder</option><option value="sphere">Sphere</option></select>
+<label for="dimx">Width / diameter</label><input id="dimx" type="number" value="2" min=".1" max="100" step=".1"><label for="dimy">Height</label><input id="dimy" type="number" value="2" min=".1" max="100" step=".1"><label for="dimz">Depth</label><input id="dimz" type="number" value="2" min=".1" max="100" step=".1">
+<div class="actions"><button id="apply3d">Apply geometry</button><button class="secondary" id="reset3d">Reset camera</button><button class="secondary" id="export3d">Export GLB</button></div><p id="viewerStatus" class="muted" aria-live="polite">Loading Three.js…</p></section>
+<script type="module">
+const status=document.getElementById('viewerStatus');
+try{
+const THREE=await import('https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js');
+const {OrbitControls}=await import('https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/controls/OrbitControls.js');
+const {GLTFExporter}=await import('https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/exporters/GLTFExporter.js');
+const host=document.getElementById('viewer'),scene=new THREE.Scene();scene.background=new THREE.Color(0x08111f);
+const camera=new THREE.PerspectiveCamera(55,1,.1,1000);camera.position.set(5,4,6);
+const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));host.appendChild(renderer.domElement);
+const controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;
+scene.add(new THREE.HemisphereLight(0xffffff,0x334155,2));
+const light=new THREE.DirectionalLight(0xffffff,2);light.position.set(4,7,5);scene.add(light);
+const grid=new THREE.GridHelper(12,12,0x64748b,0x334155);grid.position.y=-1.02;scene.add(grid);
+let mesh;
+function apply(){const x=Number(document.getElementById('dimx').value),y=Number(document.getElementById('dimy').value),z=Number(document.getElementById('dimz').value);
+if(![x,y,z].every(n=>Number.isFinite(n)&&n>0&&n<=100)){status.textContent='Enter positive dimensions up to 100.';return}
+if(mesh){scene.remove(mesh);mesh.geometry.dispose();mesh.material.dispose()}
+const shape=document.getElementById('shape').value;
+const geometry=shape==='sphere'?new THREE.SphereGeometry(.5,32,24):shape==='cylinder'?new THREE.CylinderGeometry(.5,.5,1,32):new THREE.BoxGeometry(1,1,1);
+mesh=new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({color:0x60a5fa,roughness:.65,side:THREE.DoubleSide}));mesh.scale.set(x,y,z);scene.add(mesh);status.textContent='3D geometry updated. Drag to rotate; pinch or scroll to zoom.'}
+document.getElementById('apply3d').onclick=apply;
+document.getElementById('reset3d').onclick=()=>{camera.position.set(5,4,6);controls.target.set(0,0,0);controls.update()};
+document.getElementById('export3d').onclick=()=>{if(!mesh)return;new GLTFExporter().parse(mesh,data=>{const url=URL.createObjectURL(new Blob([data],{type:'model/gltf-binary'})),a=document.createElement('a');a.href=url;a.download='digital-manual-model.glb';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)},e=>{status.textContent='Export failed: '+e.message},{binary:true})};
+const observer=new ResizeObserver(()=>{const w=host.clientWidth,h=host.clientHeight;camera.aspect=w/h;camera.updateProjectionMatrix();renderer.setSize(w,h)});observer.observe(host);apply();renderer.setAnimationLoop(()=>{controls.update();renderer.render(scene,camera)});
+}catch(e){status.textContent='Three.js could not load. Check internet access and WebGL support. '+e.message}
+</script></main><footer>Digital Manuals · AI Conversational 3D Modelling · Standalone educational workflow</footer>
 <script>
 const $=id=>document.getElementById(id);
 const tasks={interpret:"Inventory visible geometry, spatial relationships and materials. Distinguish observed details, measured facts, inference and unknowns. Do not invent hidden geometry.",construct:"Produce or revise the 3D model using the available modelling environment. State the modelling method and identify provisional geometry. Do not claim a model was built unless an actual artifact exists.",inspect:"Inspect from multiple camera angles. Check face orientation, normals, back-face culling, transparency, clipping, occlusion, scale, joins and missing surfaces. Separate confirmed defects from possible causes.",correct:"Make the smallest bounded change addressing the reported defect. Preserve unrelated verified geometry. Explain the cause only if supported by inspection or code evidence; otherwise list testable possibilities.",verify:"Compare the revision against original references and previous model. Identify what is confirmed, unverified or contradicted. Record the revision identifier, evidence and remaining defects."};
