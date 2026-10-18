@@ -183,7 +183,53 @@ renderer.setAnimationLoop(()=>{controls.update();renderer.render(scene,camera)})
 <script>
 const $=id=>document.getElementById(id);
 const tasks={interpret:"Inventory visible geometry, spatial relationships and materials. Distinguish observed details, measured facts, inference and unknowns. Do not invent hidden geometry.",construct:"Produce or revise the 3D model using the available modelling environment. State the modelling method and identify provisional geometry. Do not claim a model was built unless an actual artifact exists.",inspect:"Inspect from multiple camera angles. Check face orientation, normals, back-face culling, transparency, clipping, occlusion, scale, joins and missing surfaces. Separate confirmed defects from possible causes.",correct:"Make the smallest bounded change addressing the reported defect. Preserve unrelated verified geometry. Explain the cause only if supported by inspection or code evidence; otherwise list testable possibilities.",verify:"Compare the revision against original references and previous model. Identify what is confirmed, unverified or contradicted. Record the revision identifier, evidence and remaining defects."};
-function generate(){const project=$("project").value.trim()||"[object not specified]",sources=$("sources").value.trim()||"[no sources supplied]",issue=$("issue").value.trim()||"[no additional observation]";$("prompt").value="PROJECT: "+project+"\nSTARTING METHOD: "+$("method").value+"\nSOURCES: "+sources+"\nTASK: "+tasks[$("task").value]+"\nUSER OBSERVATION: "+issue+"\n\nOUTPUT REQUIREMENTS:\n1. Direct observations and source references.\n2. Explicit unknowns and assumptions.\n3. Actions taken versus proposed actions.\n4. Verification checks and remaining defects.\n5. Continuity note for the next revision.\n\nDo not invent measurements, model files, completed edits or successful tests.";return $("prompt").value}
+function generate(){
+const project=$("project").value.trim()||"[describe the object to model]";
+const sources=$("sources").value.trim()||"[attach photographs or provide a written description in the AI conversation]";
+const issue=$("issue").value.trim()||"[no additional observation]";
+const stage=$("task").value;
+const spec=[
+"BUILD REQUEST — AI-GENERATED INTERACTIVE 3D WEB PAGE",
+"PROJECT: "+project,
+"STARTING METHOD: "+$("method").value,
+"REFERENCE SOURCES: "+sources,
+"USER OBSERVATION / CORRECTION: "+issue,
+"CURRENT WORK STAGE: "+stage,
+"STAGE-SPECIFIC INSTRUCTION: "+tasks[stage],
+"",
+"YOUR JOB AS THE AI ASSISTANT:",
+"Build and return the complete, working HTML/CSS/JavaScript page for this specific object. You are responsible for writing the code, constructing the Three.js geometry, implementing controls and fixing defects. The human user must not be required to write code, choose a modelling library or manually assemble files.",
+"Use the attached photograph(s), the user's description, or both as the primary reference. If a photo is absent, ask for it or create only clearly labelled provisional geometry from the available text. Do not invent hidden structure, exact dimensions or material certainty.",
+"",
+"REQUIRED DELIVERABLE:",
+"One browser-viewable HTML page, based on the Digital Manuals interactive house demonstration, with a real Three.js 3D scene (not a static image or an explanation of how to build one). Include the complete source code and, when the environment supports files, provide the actual HTML file ready to open or publish. Use a CDN import map for Three.js and its addons, or bundle dependencies if genuine offline operation is required.",
+"",
+"REQUIRED PAGE LAYOUT, IN THIS ORDER:",
+"1. Clear project title, object description, starting method and reference-source status.",
+"2. Prominent interactive 3D viewport with touch/mouse orbit rotation, pinch/scroll zoom, reset view and visible loading/error status.",
+"3. Practical viewing controls: full model, useful cutaway/section or exploded view when relevant, hide/show relevant layers or levels, and a GLB export control if technically supported.",
+"4. A 'Design evolution' section immediately BELOW the model: illustrated, numbered iterations showing initial construction, reported screenshot defects, targeted corrections and current state. Use accurate diagrams or actual provided screenshots; do not invent earlier revisions or claim unperformed changes.",
+"5. The exact modelling/design prompt and assumptions used for this version, displayed in readable text with a copy control.",
+"6. Source observations, inferred geometry, explicit unknowns, and any dimensions that were actually measured.",
+"7. Inspection and verification checklist including geometry connections, missing walls, openings, stairs/landings where applicable, clipping, occlusion, normals, transparency and camera-angle checks.",
+"8. Revision history and a copyable/downloadable continuity snapshot recording source references, changes, unresolved defects and version.",
+"",
+"DESIGN AND ACCESSIBILITY:",
+"Responsive phone-first layout; readable base text of at least 20px; buttons usable by touch; no sideways-scrolling tables. Clear distinction between interactive model, diagram, evidence and unverified assumptions. All features must have functional event handlers, not decorative buttons.",
+"",
+"MODELLING RULES:",
+"Preserve visible spatial relationships from the references. Where photographs are ambiguous, mark geometry as provisional. Keep floors, stairs, walls and openings connected; do not hide structural defects by removing entire wall groups. Cutaway controls should selectively hide obstructing faces while preserving useful structure. Ensure floor/section modes retain the geometry they are meant to inspect.",
+"",
+"CONVERSATIONAL REVISION LOOP:",
+"After creating the page, ask the user to inspect it and send screenshots with corrections. On each follow-up, identify what is visible in the screenshot, what is inferred, the smallest change required, what code changed, what was tested, what remains unverified, and the next inspection. Keep the previous verified features intact. Update the page and its design-evolution record for genuine iterations.",
+"",
+"REPORTING REQUIREMENTS:",
+"Distinguish completed implementation from proposed work; report the actual file/link only if created and accessible. Never invent tests, measurements, previous iterations or successful deployment. If you cannot generate a file or host the page, provide the complete runnable HTML and say exactly what remains for publication.",
+"",
+"IMPORTANT: The requested result is the interactive 3D HTML page itself — not merely a photo analysis, prompt template, generic tutorial or software recommendation."
+];
+$("prompt").value=spec.join("\n");return $("prompt").value
+}
 $("generate").onclick=generate;
 async function copyText(s){try{await navigator.clipboard.writeText(s);$("copyStatus").textContent="Copied."}catch(e){$("copyStatus").textContent="Copy unavailable. Select the text and use your device's copy function."}}
 $("copy").onclick=()=>copyText($("prompt").value||generate());
