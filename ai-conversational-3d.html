@@ -20,7 +20,32 @@
 <label for="issue">Observation, defect or instruction</label><textarea id="issue" placeholder="e.g. Walls become transparent and disappear when I rotate the camera"></textarea>
 <div class="actions"><button id="generate">Generate instruction</button><button class="secondary" id="copy">Copy instruction</button></div>
 <label for="prompt">Generated instruction</label><textarea id="prompt" rows="12" readonly></textarea><p id="copyStatus" aria-live="polite" class="muted"></p></section>
-<section><h2>3. Revision and continuity record</h2><p>Document each revision so a later conversation can resume without silently discarding earlier decisions. Records remain in this page until you copy or export them; this page does not automatically save them online.</p>
+<section id="photo-identification"><h2>Photo identification — on-device AI</h2>
+<p>Upload a photograph or take one with your camera. On supported desktop Chrome installations, the browser's multimodal Prompt API can describe the image locally after its AI model is installed. On unsupported browsers, you can still preview the image and copy the analysis instruction for use in an AI conversation.</p>
+<label for="photoUpload">Photograph to identify</label><input id="photoUpload" type="file" accept="image/*" style="padding:12px">
+<img id="photoPreview" alt="Selected photo preview" style="display:none;max-width:100%;max-height:380px;object-fit:contain;margin-top:12px;border-radius:8px">
+<label for="photoContext">What should AI focus on?</label><textarea id="photoContext" placeholder="e.g. Identify structural elements, openings, materials and geometry for a 3D reconstruction."></textarea>
+<div class="actions"><button id="photoCheck">Check local AI support</button><button id="photoAnalyse">Identify photograph locally</button><button class="secondary" id="photoCopy">Copy image-analysis prompt</button></div>
+<p id="photoStatus" aria-live="polite" class="muted">No photo selected. Local AI availability not checked.</p>
+<label for="photoResult">Identification results</label><textarea id="photoResult" readonly rows="10" placeholder="Local AI findings will appear here."></textarea>
+<p class="note">Local image analysis is conditional on Chrome API support and model availability. This page does not send the selected image to a server. Image preview and prompt copying do not require AI. The page itself requires initial network access unless its assets are separately cached for offline use.</p>
+</section>
+<script>
+(()=>{const el=id=>document.getElementById(id);let url=null;
+const instruction=()=>['Inspect the attached photograph for a Three.js 3D modelling workflow.','User focus: '+(el('photoContext').value.trim()||'Identify the visible object or structure.'),'Return: (1) directly visible objects and components, (2) geometric shapes and spatial relationships, (3) apparent materials with uncertainty, (4) openings, joints and obstructions, (5) unknown or concealed features, (6) a modelling-ready description.','Do not invent dimensions, concealed structures, material specifications or construction compliance. Distinguish observations from inferences.'].join('\n');
+el('photoUpload').addEventListener('change',()=>{const file=el('photoUpload').files[0];if(url)URL.revokeObjectURL(url);url=null;el('photoResult').value='';if(!file){el('photoPreview').style.display='none';return}if(!file.type.startsWith('image/')){el('photoStatus').textContent='Select an image file.';return}url=URL.createObjectURL(file);el('photoPreview').src=url;el('photoPreview').style.display='block';el('photoStatus').textContent='Image loaded locally: '+file.name+'. No identification has been performed.'});
+const opts={expectedInputs:[{type:'text',languages:['en']},{type:'image'}],expectedOutputs:[{type:'text',languages:['en']}]};
+el('photoCheck').onclick=async()=>{if(!('LanguageModel' in window)){el('photoStatus').textContent='Chrome multimodal Prompt API is not available in this browser or device.';return}try{const a=await LanguageModel.availability(opts);el('photoStatus').textContent='Chrome image AI availability: '+a+'. '+(a==='available'?'Ready for local analysis.':a==='downloadable'?'A model download is required before offline use.':'Local image AI is not ready.')}catch(e){el('photoStatus').textContent='Local AI availability check failed: '+e.message}};
+el('photoAnalyse').onclick=async()=>{const file=el('photoUpload').files[0];if(!file){el('photoStatus').textContent='Choose a photograph first.';return}if(!('LanguageModel' in window)){el('photoStatus').textContent='Local image AI unsupported here. Use Copy image-analysis prompt with your photograph in an AI conversation.';return}
+let session;try{el('photoStatus').textContent='Checking local model…';const a=await LanguageModel.availability(opts);if(a==='unavailable'){el('photoStatus').textContent='Multimodal local model unavailable on this device.';return}
+session=await LanguageModel.create({...opts,monitor(m){m.addEventListener('downloadprogress',e=>{el('photoStatus').textContent='Downloading local AI model: '+Math.round(e.loaded*100)+'%'})}});
+el('photoStatus').textContent='Analysing image on device…';
+const result=await session.prompt([{role:'user',content:[{type:'text',text:instruction()},{type:'image',value:file}]}]);
+el('photoResult').value=typeof result==='string'?result:JSON.stringify(result,null,2);el('photoStatus').textContent='Local image identification completed. Review and verify all findings.';
+}catch(e){el('photoStatus').textContent='Local analysis failed: '+e.message+'; no identification result was produced.'}finally{if(session)session.destroy()}};
+el('photoCopy').onclick=async()=>{try{await navigator.clipboard.writeText(instruction());el('photoStatus').textContent='Prompt copied. Attach your photo separately in the AI conversation.'}catch(e){el('photoStatus').textContent='Clipboard unavailable. Select the instruction text in the generated prompt builder instead.'}};
+})();
+</script><section><h2>3. Revision and continuity record</h2><p>Document each revision so a later conversation can resume without silently discarding earlier decisions. Records remain in this page until you copy or export them; this page does not automatically save them online.</p>
 <label for="version">Revision identifier</label><input id="version" placeholder="e.g. REV-003">
 <label for="change">Change and evidence</label><textarea id="change" placeholder="What was changed? What photograph, measurement or inspection supports it?"></textarea>
 <label for="remaining">Unresolved issues</label><textarea id="remaining" placeholder="Unverified geometry, missing measurements, known defects"></textarea>
