@@ -27,3 +27,4 @@ https://mayhem82.github.io/Digital-Manuals/common-ground/notebooklm/emergency-dr
 https://mayhem82.github.io/Digital-Manuals/common-ground/notebooklm/emergency-house-fire.html
 https://mayhem82.github.io/Digital-Manuals/common-ground/notebooklm/emergency-heat.html
 https://mayhem82.github.io/Digital-Manuals/common-ground/notebooklm/emergency-outage.html
+https://mayhem82.github.io/Digital-Manuals/common-ground/notebooklm/emergency-thunderstorm.html

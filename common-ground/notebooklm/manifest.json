@@ -2,7 +2,7 @@
   "contentPrepared": "2026-11-12",
   "guideCount": 104,
   "skillAreas": 13,
-  "emergencyScenarios": 7,
+  "emergencyScenarios": 8,
   "combinedUrl": "https://mayhem82.github.io/Digital-Manuals/common-ground/notebooklm/all-content.html",
   "pages": [
     {
@@ -120,6 +120,11 @@
     {
       "title": "Power & communication outage",
       "url": "https://mayhem82.github.io/Digital-Manuals/common-ground/notebooklm/emergency-outage.html"
+    },
+    {
+      "title": "Thunderstorms, lightning & hail",
+      "url": "https://mayhem82.github.io/Digital-Manuals/common-ground/notebooklm/emergency-thunderstorm.html"
     }
-  ]
+  ],
+  "thunderstormAdded": "2026-11-19"
 }
